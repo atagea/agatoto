@@ -1,51 +1,87 @@
 {
-  "format": "KWESTIA_5_KADROW_PREVIEW",
-  "version": 1,
+  "format": "KWESTIA_KADRY_SHARED",
+  "version": 2,
+  "notes": "Tylko opublikowane wpisy. Szkice w osobnym pliku importu STUDIO, którego nie należy publikować.",
   "kadry": [
-    {
-      "id": "review-20261031-04",
-      "title": "Pillow Eye · Minimal B&W Close-Up",
-      "category": "Fotografia artystyczna",
-      "prompt": "Use the supplied reference photograph solely to preserve the same adult subject’s recognizable facial geometry, apparent age, eye shape, nose, lips, jawline, natural asymmetry, skin texture, hair color and hairstyle, and natural body proportions. Do not beautify, de-age, replace the subject, or invent identifying traits. Keep glasses only when the selected reference or user instruction calls for them.\n\nCreate a minimal, artistic black-and-white close-up of the reference adult woman lying on a pillow. Frame the face asymmetrically so that one expressive eye is clearly visible while the rest is partly hidden by the pillow, natural hair, and a relaxed hand near the face. Use soft directional window light, subtle shadow transitions, natural pores and fine lines, intimate shallow depth of field, and restrained analog film grain. Avoid glamour retouching.\n\nQuality and identity priority: maintain believable photographic lighting and precise natural features.",
-      "thumbnail": "images/pillow-eye.jpg",
-      "status": "public_preview",
-      "source": "reconstructed_prompt; user-provided generated image"
-    },
     {
       "id": "review-20261031-01",
       "title": "Concrete Wall · Distressed Denim B&W",
-      "category": "Portrety",
+      "category": "Kobieta",
+      "description": "",
+      "tags": "",
       "prompt": "Use the supplied reference photograph solely to preserve the same adult subject’s recognizable facial geometry, apparent age, eye shape, nose, lips, jawline, natural asymmetry, skin texture, hair color and hairstyle, and natural body proportions. Do not beautify, de-age, replace the subject, or invent identifying traits. Keep glasses only when the selected reference or user instruction calls for them.\n\nA photorealistic vertical 9:16 black-and-white cinematic editorial portrait of the reference adult woman leaning naturally against a rough concrete wall. She wears an oversized distressed denim jacket slipping off one shoulder over a dark top. Relaxed hand position, restrained expression, dramatic directional side light, tactile wall texture, fine analog grain, deep but detailed shadows, and authentic skin texture. Keep the composition minimal and unposed.\n\nQuality and identity priority: maintain believable photographic lighting and precise natural features.",
+      "negativePrompt": "Different identity, face reshaping, de-aging, generic model, altered natural hair color, altered eye color, distorted anatomy, extra limbs or fingers, plastic skin, excessive smoothing, oversharpening, text, watermark, logo, artificial-looking compositing.",
+      "referencePhotosRequired": "One or more actual photos of the subject; for double-exposure dog, photos of the same dog.",
       "thumbnail": "images/concrete-wall.jpg",
-      "status": "public_preview",
-      "source": "reconstructed_prompt; user-provided generated image"
+      "status": "published",
+      "source": "Rekonstrukcja redakcyjna na podstawie rozmów",
+      "provenance": "reconstructed_not_verbatim",
+      "date": "2026-10-30",
+      "profile": ""
     },
     {
       "id": "review-20261031-02",
       "title": "Golden Noir · Column & Reflections",
-      "category": "Noir",
+      "category": "Kobieta",
+      "description": "",
+      "tags": "",
       "prompt": "Use the supplied reference photograph solely to preserve the same adult subject’s recognizable facial geometry, apparent age, eye shape, nose, lips, jawline, natural asymmetry, skin texture, hair color and hairstyle, and natural body proportions. Do not beautify, de-age, replace the subject, or invent identifying traits. Keep glasses only when the selected reference or user instruction calls for them.\n\nCreate a cinematic, photorealistic golden-noir fashion portrait of the reference adult woman seated beside a dark architectural column on a glossy reflective floor. She wears an elegant black thin-strap dress with a slit and black heeled sandals. Use subtle golden practical highlights, rich shadows, carefully controlled reflections, believable seated anatomy, sophisticated editorial framing, and realistic skin texture. Maintain the original subject’s identity and proportions.\n\nQuality and identity priority: maintain believable photographic lighting and precise natural features.",
+      "negativePrompt": "Different identity, face reshaping, de-aging, generic model, altered natural hair color, altered eye color, distorted anatomy, extra limbs or fingers, plastic skin, excessive smoothing, oversharpening, text, watermark, logo, artificial-looking compositing.",
+      "referencePhotosRequired": "One or more actual photos of the subject; for double-exposure dog, photos of the same dog.",
       "thumbnail": "images/golden-noir.jpg",
-      "status": "public_preview",
-      "source": "reconstructed_prompt; user-provided generated image"
+      "status": "published",
+      "source": "Rekonstrukcja redakcyjna na podstawie rozmów",
+      "provenance": "reconstructed_not_verbatim",
+      "date": "2026-10-29",
+      "profile": ""
     },
     {
       "id": "review-20261031-03",
       "title": "Autumn Biker Jacket · Windblown Hair",
-      "category": "Fashion",
+      "category": "Kobieta",
+      "description": "",
+      "tags": "",
       "prompt": "Use the supplied reference photograph solely to preserve the same adult subject’s recognizable facial geometry, apparent age, eye shape, nose, lips, jawline, natural asymmetry, skin texture, hair color and hairstyle, and natural body proportions. Do not beautify, de-age, replace the subject, or invent identifying traits. Keep glasses only when the selected reference or user instruction calls for them.\n\nCreate a photorealistic intimate 3:4 fashion portrait of the reference adult person from head to upper chest in a softly blurred autumn park. The head is slightly tilted and turned, the gaze directed away from the lens, and both hands lift into naturally wind-tousled hair, with a few strands crossing the face. Add an oversized, distressed black leather biker jacket, diffused overcast daylight, gentle depth of field, an 85–105 mm portrait-lens feel, and lifelike textures. Preserve natural hair color and length.\n\nQuality and identity priority: maintain believable photographic lighting and precise natural features.",
+      "negativePrompt": "Different identity, face reshaping, de-aging, generic model, altered natural hair color, altered eye color, distorted anatomy, extra limbs or fingers, plastic skin, excessive smoothing, oversharpening, text, watermark, logo, artificial-looking compositing.",
+      "referencePhotosRequired": "One or more actual photos of the subject; for double-exposure dog, photos of the same dog.",
       "thumbnail": "images/autumn-biker.jpg",
-      "status": "public_preview",
-      "source": "reconstructed_prompt; user-provided generated image"
+      "status": "published",
+      "source": "Rekonstrukcja redakcyjna na podstawie rozmów",
+      "provenance": "reconstructed_not_verbatim",
+      "date": "2026-10-29",
+      "profile": ""
+    },
+    {
+      "id": "review-20261031-04",
+      "title": "Pillow Eye · Minimal B&W Close-Up",
+      "category": "Kobieta",
+      "description": "",
+      "tags": "",
+      "prompt": "Use the supplied reference photograph solely to preserve the same adult subject’s recognizable facial geometry, apparent age, eye shape, nose, lips, jawline, natural asymmetry, skin texture, hair color and hairstyle, and natural body proportions. Do not beautify, de-age, replace the subject, or invent identifying traits. Keep glasses only when the selected reference or user instruction calls for them.\n\nCreate a minimal, artistic black-and-white close-up of the reference adult woman lying on a pillow. Frame the face asymmetrically so that one expressive eye is clearly visible while the rest is partly hidden by the pillow, natural hair, and a relaxed hand near the face. Use soft directional window light, subtle shadow transitions, natural pores and fine lines, intimate shallow depth of field, and restrained analog film grain. Avoid glamour retouching.\n\nQuality and identity priority: maintain believable photographic lighting and precise natural features.",
+      "negativePrompt": "Different identity, face reshaping, de-aging, generic model, altered natural hair color, altered eye color, distorted anatomy, extra limbs or fingers, plastic skin, excessive smoothing, oversharpening, text, watermark, logo, artificial-looking compositing.",
+      "referencePhotosRequired": "One or more actual photos of the subject; for double-exposure dog, photos of the same dog.",
+      "thumbnail": "images/pillow-eye.jpg",
+      "status": "published",
+      "source": "Rekonstrukcja redakcyjna na podstawie rozmów",
+      "provenance": "reconstructed_not_verbatim",
+      "date": "2026-10-28",
+      "profile": ""
     },
     {
       "id": "review-20261031-05",
       "title": "Side-Profile Chair · Oversized Knit Fine-Art B&W",
-      "category": "Fotografia artystyczna",
+      "category": "Kobieta",
+      "description": "",
+      "tags": "",
       "prompt": "Use the supplied reference photograph solely to preserve the same adult subject’s recognizable facial geometry, apparent age, eye shape, nose, lips, jawline, natural asymmetry, skin texture, hair color and hairstyle, and natural body proportions. Do not beautify, de-age, replace the subject, or invent identifying traits. Keep glasses only when the selected reference or user instruction calls for them.\n\nCreate a fine-art black-and-white 4:5 full-body editorial photograph of the reference adult woman seated strictly in side profile on a black shell chair with wooden legs. She leans forward slightly; natural long hair partly veils her face. Style her in an oversized black knitted sweater falling off one shoulder, crossed legs, and understated heeled sandals. Use dark draped fabric behind her, a wooden floor, strong low-key directional light, realistic proportions, and a sparse, deliberate composition. Preserve her actual hairstyle and body proportions.\n\nQuality and identity priority: maintain believable photographic lighting and precise natural features.",
+      "negativePrompt": "Different identity, face reshaping, de-aging, generic model, altered natural hair color, altered eye color, distorted anatomy, extra limbs or fingers, plastic skin, excessive smoothing, oversharpening, text, watermark, logo, artificial-looking compositing.",
+      "referencePhotosRequired": "One or more actual photos of the subject; for double-exposure dog, photos of the same dog.",
       "thumbnail": "images/side-profile-chair.jpg",
-      "status": "public_preview",
-      "source": "reconstructed_prompt; user-provided generated image"
+      "status": "published",
+      "source": "Rekonstrukcja redakcyjna na podstawie rozmów",
+      "provenance": "reconstructed_not_verbatim",
+      "date": "2026-10-27",
+      "profile": ""
     }
   ]
 }
