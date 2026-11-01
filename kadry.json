@@ -1,7 +1,6 @@
 {
   "format": "KWESTIA_KADRY_SHARED",
   "version": 2,
-  "notes": "Tylko opublikowane wpisy. Szkice w osobnym pliku importu STUDIO, którego nie należy publikować.",
   "kadry": [
     {
       "id": "review-20261031-01",
