@@ -1,0 +1,1 @@
+PODGLĄD 5 KADRÓW. Nie nadpisuj istniejącej strony bez kopii zapasowej. Plik index.html to samodzielna strona demonstracyjna, nie aktualizacja istniejącego repozytorium. Prompty to wersje rekonstruowane, nie potwierdzone oryginały. Obrazy pochodzą z pięciu plików przekazanych w rozmowie.
