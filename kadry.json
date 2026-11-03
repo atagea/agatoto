@@ -1,7 +1,7 @@
 {
   "format": "KWESTIA_KADRY_SHARED",
   "version": 2,
-  "notes": "Tylko opublikowane wpisy. Szkice w osobnym pliku importu STUDIO, którego nie należy publikować.",
+  "notes": "9 published entries. Three new art portraits have no confirmed website thumbnail; their complete prompts are available.",
   "kadry": [
     {
       "id": "review-20261031-01",
@@ -98,6 +98,54 @@
       "provenance": "original_catalog",
       "date": "",
       "profile": "1"
+    },
+    {
+      "id": "KZ-20261102-HYPNOTIC",
+      "title": "THE HYPNOTIC GAZE",
+      "category": "Kobieta",
+      "description": "Oryginalny niemiecki master-prompt dostarczony 2026-11-03; pełne tłumaczenie angielskie. Miniatura wymaga umieszczenia na stronie.",
+      "tags": "one eye, hypnotic gaze, monochrome, fine art",
+      "prompt": "AGATOTO 1 — THE HYPNOTIC GAZE\nMASTER PROMPT | Black & White Fine Art Portrait\n\nCreate an exceptionally intense, absolutely photorealistic black-and-white fine-art portrait using my uploaded original photographs.\n\nIDENTITY — ABSOLUTE PRIORITY\nPreserve my actual facial identity as faithfully as possible. Eye shape, natural eye color, eyebrows, nose, lip shape and volume, facial proportions, skin texture, age, and individual identifying features such as piercings, moles, or freckles must remain unchanged. No beautification, rejuvenation, or artificial facial symmetry.\n\nFRAMING & COMPOSITION\nExtremely tight, asymmetrical vertical portrait crop in a 4:5 aspect ratio. Only one half of the face is visible; the other half lies outside the frame. The visible eye is positioned in the upper-left area of the image. The nose and mouth are partially cut off by the left edge of the frame. The right half of the image shows a calm, dark-gray, blurred background.\n\nTHE GAZE — HYPNOTIC & CAPTIVATING\nDirect, intense eye contact with the camera. The eyelids are very slightly lowered; the gaze is mysterious, self-assured, sensual, and subtly challenging. Preserve the natural eye shape.\n\nThe iris retains its actual brightness and color, rendered in authentic grayscale values. A small, clear window-light catchlight creates a fascinating sparkle. Subtle, slightly smudged dark eyeliner enhances the depth of the gaze.\n\nMOUTH & EXPRESSION\nThe lips are naturally relaxed and parted by only a few millimeters. Preserve the original lip shape and natural volume completely. No pout, no artificially fuller lips, no visible tongue. The expression is calm, serious, and subtly sensual.\n\nHAIR & WIND\nLoosely pinned-up, voluminous messy bun with naturally falling strands. A gentle but clearly visible breeze blows from right to left. Several individual strands of varying lengths move dynamically in soft curves across the forehead, eye area, cheek, and mouth. Some strands are sharp; others have slight motion blur. The visible eye remains mostly unobstructed and recognizable. No artificially arranged hair.\n\nCLOTHING\nA simple white high-neck top with no patterns or lettering, partly visible along the bottom edge of the frame.\n\nLIGHTING & PHOTOGRAPHY\nSoft side window light from the front-left. Gentle shadows, natural contrast, nuanced grayscale gradations, and a subtle analog film look.\n\nThe photographic feel of a full-frame camera with an 85 mm portrait lens, shallow depth of field, fine film grain, and natural lens softness. The visible eye is in precise focus.\n\nAuthentic skin with real pores, fine lines, and individual characteristics. No invented skin details, beauty retouching, oversharpened texture, HDR, or artificial AI sheen.\n\nFINAL PRIORITY\nExact facial identity from the uploaded personal reference photographs. Hypnotic direct eye contact, authentic dark iris tones where applicable, subtle natural catchlight, slightly parted natural lips, windblown individual hair strands moving from right to left, extreme asymmetrical half-face crop, and soft cinematic black-and-white photography.",
+      "negativePrompt": "Different face, altered nose, enlarged eyes, fuller lips, pout, artificial beauty, plastic skin, excessive freckles, exaggerated wrinkles, brightened iris, fake eyelashes, forced expression, visible teeth, artificial hair movement, centered portrait, full-face framing, harsh HDR, overprocessing, AI-generated glamour look.",
+      "referencePhotosRequired": "Wymagane oryginalne zdjęcia referencyjne osoby (AGATOTO 1).",
+      "thumbnail": "",
+      "status": "published",
+      "source": "Original German master prompt supplied by user; English version retained from working catalog; review against original recommended",
+      "provenance": "original_source_translated_en",
+      "date": "2026-11-01",
+      "profile": "AGATOTO 1"
+    },
+    {
+      "id": "KZ-20261102-EYES-DARK",
+      "title": "Eyes Emerging from Darkness · Fine-Art Low-Key B&W",
+      "category": "Kobieta",
+      "description": "Odtworzony roboczo na podstawie zaakceptowanego opisu; do weryfikacji z oryginałem.",
+      "tags": "eyes, low-key, black-and-white, fine art",
+      "prompt": "Create an extremely realistic, artistic black-and-white portrait in dramatic low-key photography, based on the uploaded reference photograph.\n\nIDENTITY PRESERVATION — HIGHEST PRIORITY\nThe person depicted must remain clearly recognizable as the individual shown in the uploaded reference photograph. Preserve their actual eye shape, natural eye color translated into corresponding grayscale tones, eye spacing, eyebrows, eyelashes, nose shape, facial contours, and all distinctive individual characteristics. Do not alter the person's identity or apply artificial beautification.\n\nIMAGE COMPOSITION\nAn extremely tight, intimate close-up focusing on both eyes, eyebrows, and the upper portion of the nose. The face is turned slightly to the side, with a dreamy, intense gaze directed upward and to the right. Both eyes are exceptionally sharp, featuring natural reflections of light in the pupils. Fine, clearly defined eyelashes and highly detailed eyebrows. Visible, natural skin texture with delicate pores. The lower part of the face gradually disappears into deep black shadows. The hair and background blend almost completely into the darkness.\n\nLIGHTING AND ATMOSPHERE\nDramatic yet soft studio lighting coming from the upper left side. Subtle highlights illuminate the forehead, eye area, cheeks, and bridge of the nose. Extremely deep blacks, brilliant silver-gray highlights, and finely graduated grayscale tones. An expressive, mysterious, elegant, and emotionally captivating atmosphere.\n\nPHOTOGRAPHIC STYLE\nFine-art beauty photography, monochrome, high contrast, low-key lighting, macro portraiture, 85mm portrait lens, professional studio quality, ultra-realistic skin details, natural facial anatomy, exceptionally sharp iris structures, and high-quality black-and-white photographic processing.\n\nFORMAT\nVertical portrait, 4:5 aspect ratio. The eye area is centered in the composition, with generous deep-black negative space occupying the lower portion of the image.\n\nFINAL RESULT\nAn expressive, mysterious, almost entirely black fine-art portrait in which the person's real eyes and distinctive facial features, faithfully preserved from the uploaded reference photograph, emerge dramatically from the darkness.",
+      "negativePrompt": "Text, lettering, signatures, logos, watermarks, artificial-looking eyes, altered facial identity, excessive skin smoothing, deformed facial features, cartoon aesthetics, illustration style.",
+      "referencePhotosRequired": "Zdjęcie referencyjne osoby; oryginalna miniatura do odnalezienia.",
+      "thumbnail": "",
+      "status": "published",
+      "source": "Sandra Ihme — original German prompt supplied by user; full English translation 2026-11-03",
+      "provenance": "translated_from_user_original",
+      "date": "2026-11-02",
+      "profile": ""
+    },
+    {
+      "id": "KZ-20261103-PILLOW-SILENCE",
+      "title": "Pillow Silence · Intimate Black & White Portrait",
+      "category": "Kadry",
+      "description": "Artystyczny czarno-biały portret kobiety leżącej na poduszce, z widocznym jednym okiem.",
+      "tags": "fine art, black and white, pillow, one eye, close-up, cinematic",
+      "prompt": "IDENTITY PRESERVATION — HIGHEST PRIORITY\nUse the uploaded reference photograph as the sole source of the woman's identity. Preserve her exact recognizable facial features, natural facial structure, proportions, eye shape, natural eye color translated into authentic grayscale tones, eyebrows, nose, lips, jawline, facial asymmetry, and apparent age. Maintain her authentic skin texture, including natural pores, fine lines, and distinctive facial characteristics. Preserve the natural hair color, length, texture, density, and hairline shown in the reference photograph. Do not beautify, reshape, de-age, or replace her face. Do not alter her natural body proportions.\n\nSCENE AND COMPOSITION\nCreate an exceptionally realistic, artistic black-and-white close-up portrait of an adult woman lying comfortably on a pillow, captured in a moment of intimate silence. Only one half of her face is clearly visible, emphasizing a single expressive eye. Her visible eye conveys quiet intensity, mystery, and subtle emotion. Natural eyelashes and softly defined smoky eye makeup enhance the gaze without altering her actual eye shape. Her eyebrows retain their natural shape and density. Her hair falls loosely and naturally across the pillow, following its original length and texture. The woman rests her head on one arm, while her other hand is gently raised near her face, creating a relaxed, intimate, and naturally elegant pose. Her expression is calm, thoughtful, and slightly mysterious.\n\nLIGHTING AND ATMOSPHERE\nSoft, directional light creates beautiful contrasts between illuminated areas and deep shadows. The lighting emphasizes the natural texture of her skin, the delicate contours of her face, and the emotional depth of her gaze. The background remains simple, dark, and softly blurred, allowing the face and visible eye to become the focal point.\n\nPHOTOGRAPHIC STYLE\nSophisticated black-and-white fine-art photography. Intimate editorial portraiture, cinematic monochrome tones, elegant shadows, subtle analog film grain, shallow depth of field, and realistic photographic detail. Captured with the visual characteristics of an 85mm portrait lens. Natural skin texture, authentic facial anatomy, refined contrast, and a timeless magazine-photography aesthetic.\n\nFORMAT\nVertical 4:5 composition. Tight, intimate framing with one eye as the primary focal point.\n\nFINAL RESULT\nAn emotionally captivating, ultra-photorealistic black-and-white fine-art portrait of the exact woman from the reference photograph, resting naturally on a pillow, with half of her face visible and one expressive eye emerging from delicate shadows.",
+      "negativePrompt": "Different face, altered facial identity, changed hairstyle, artificially enlarged eyes, exaggerated eyelashes, excessive makeup, unnatural eyebrows, fuller lips, altered nose, artificial beauty filters, plastic skin, excessive smoothing, distorted hands, extra fingers, unnatural pose, exaggerated facial expression, cartoon style, illustration, CGI, artificial glamour, text, logos, signatures, watermarks.",
+      "referencePhotosRequired": "One reference photo of an adult woman",
+      "thumbnail": "",
+      "status": "published",
+      "source": "User-provided screenshot of English prompt; professionally revised and approved 2026-11-03",
+      "provenance": "edited_from_user_prompt",
+      "date": "2026-11-03",
+      "profile": "AGATOTO 1 / universal reference"
     }
   ],
   "exportedAt": "2026-11-02"
