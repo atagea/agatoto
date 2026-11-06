@@ -1,7 +1,6 @@
 {
   "format": "KWESTIA_KADRY_SHARED",
   "version": 2,
-  "notes": "Rozszerzona galeria: 9 wcześniej opublikowanych + oryginalne pełne prompty z prywatnej kopii; brak miniatur bez potwierdzonego obrazu. Nie zawiera krótkich notatek ani rekonstrukcji niezweryfikowanych.",
   "kadry": [
     {
       "id": "review-20261031-01",
@@ -899,6 +898,5 @@
       "date": "",
       "profile": "1"
     }
-  ],
-  "exportedAt": "2026-11-02"
+  ]
 }
