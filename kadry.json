@@ -11,7 +11,7 @@
       "prompt": "Using the supplied reference photograph to preserve the same adult woman's recognizable facial features, natural proportions, apparent age, eye shape, nose, lips, eyebrows, hair, and authentic skin texture, create a photorealistic artistic black-and-white close-up portrait of her lying down in intimate silence. Only half of her face is prominently visible, emphasizing one expressive, deep eye framed by long eyelashes and dark smoky makeup. The eyebrows are striking and well-defined. Her hair falls loosely and naturally onto the pillow. She rests her head on her arm, with her hand gently raised in front of her face in a natural, elegant pose. Soft directional light creates dramatic yet detailed contrasts between illuminated skin and shadow, emphasizing real skin texture and the depth of her gaze. Elegant, mysterious, cinematic fine-art portrait with the atmosphere of high-end editorial magazine photography. Tight asymmetrical framing, realistic anatomy, subtle film grain, authentic photographic finish. Preserve her identity rather than replacing her with a generic model.",
       "negativePrompt": "Different identity, face reshaping, de-aging, artificial beauty retouching, plastic skin, changed eye shape, changed nose or lips, excessive smoothing, distorted hand, extra fingers, oversharpening, text, watermark, logo.",
       "referencePhotosRequired": "Jedno zdjęcie referencyjne twarzy osoby.",
-      "thumbnail": "",
+      "thumbnail": "images/intimate-gaze.PNG",
       "status": "published",
       "source": "Prompt użytkowniczki z 8 listopada 2026, redakcja zachowująca intencję",
       "provenance": "user_supplied_adapted",
