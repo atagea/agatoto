@@ -59,7 +59,7 @@
       "prompt": "Use the supplied reference photograph solely to preserve the same adult subject’s recognizable facial geometry, apparent age, eye shape, nose, lips, jawline, natural asymmetry, skin texture, hair color and hairstyle, and natural body proportions. Do not beautify, de-age, replace the subject, or invent identifying traits. Keep glasses only when the selected reference or user instruction calls for them.\n\nCreate a minimal, artistic black-and-white close-up of the reference adult woman lying on a pillow. Frame the face asymmetrically so that one expressive eye is clearly visible while the rest is partly hidden by the pillow, natural hair, and a relaxed hand near the face. Use soft directional window light, subtle shadow transitions, natural pores and fine lines, intimate shallow depth of field, and restrained analog film grain. Avoid glamour retouching.\n\nQuality and identity priority: maintain believable photographic lighting and precise natural features.",
       "negativePrompt": "Different identity, face reshaping, de-aging, generic model, altered natural hair color, altered eye color, distorted anatomy, extra limbs or fingers, plastic skin, excessive smoothing, oversharpening, text, watermark, logo, artificial-looking compositing.",
       "referencePhotosRequired": "One or more actual photos of the subject; for double-exposure dog, photos of the same dog.",
-      "thumbnail": "images/review-20261031-04-1794102353930.png",
+      "thumbnail": "images/review-20261031-04-1794102606735.png",
       "status": "published",
       "source": "Rekonstrukcja redakcyjna na podstawie rozmów",
       "provenance": "reconstructed_not_verbatim",
