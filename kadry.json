@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261109-agatoto-follow-me",
+      "title": "AGATOTO · Follow me",
+      "category": "Kobieta",
+      "description": "Czarno-biały portret modowy w białej koszuli. Spojrzenie przez ramię, wyciągnięta dłoń i miękkie światło w rozmytym korytarzu.",
+      "tags": "follow me, POV, black and white, editorial, 4:5, Agata skan",
+      "prompt": "Create one vertical 4:5 cinematic high-fashion black-and-white photograph using the attached woman as the sole identity reference. Preserve her recognizable facial geometry, natural asymmetry, eye shape, natural iris tone, apparent age, skin texture, body proportions, actual haircut and hair color, and distinctive eyeglass frames if present. Let her existing hair move naturally. Dress her in an oversized white cotton button-up shirt with rolled sleeves. Capture a follow-me POV in an elegant blurred hallway: she walks away, turns back over her shoulder with confident direct eye contact and reaches one hand naturally toward the viewer. Use subtle foreshortening, soft dramatic side lighting, shallow depth of field, fine retro film grain, and detailed cotton and skin texture. Keep the face in focus.",
+      "negativePrompt": "Altered identity, changed eye or hair color, artificial symmetry, skin smoothing, de-aging, exaggerated foreshortening, distorted fingers, wide-angle distortion, text, logos, watermarks.",
+      "referencePhotosRequired": "Jedno wyraźne zdjęcie referencyjne twarzy.",
+      "thumbnail": "images/follow-me-noir.jpg",
+      "status": "published",
+      "source": "Prompt użytkowniczki z 9 listopada 2026, adaptacja do zdjęcia referencyjnego",
+      "provenance": "user_supplied_adapted",
+      "date": "2026-11-09",
+      "profile": ""
+    },
+    {
       "id": "kz-20261109-cinematic-intimate-closeup-unisex",
       "title": "Cinematic Intimate Close-Up | Sepia Noir",
       "category": "Unisex",
