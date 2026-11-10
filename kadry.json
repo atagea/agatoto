@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261110-agatoto-fabryka",
+      "title": "AGATOTO · Zadziorny portret w opuszczonej fabryce",
+      "category": "Kobieta",
+      "description": "Portret grunge w opuszczonej fabryce. Spojrzenie prosto w obiektyw, policzki oparte na dłoniach i komicznie obrażona mina.",
+      "tags": "grunge, editorial, fabryka, mimika, okulary, 4:5, Agata skan",
+      "prompt": "Create a photorealistic vertical 4:5 grunge editorial. Use a clear, near-frontal original selfie as the sole identity reference. Preserve her natural cheek fullness, jaw and chin contours, facial asymmetry, nose, eye shape and spacing, brown eyes, skin texture, apparent age and body proportions. Retain her teal-accented cat-eye glasses and gather her naturally dark hair into two compact, slightly messy high buns.\n\nSeat her cross-legged on rough concrete with each elbow resting on its corresponding knee. Her loosely closed hands support the lower cheeks at nearly the same height, with gentle contact that leaves the natural facial contours readable. Keep her head upright and facing squarely forward. She looks directly into the lens with a comically stubborn, mock-offended expression. Bring the brows slightly inward to create a small crease between them, keep the eyes open and steady, and push the lower lip gently forward. Keep the lips closed and close to their natural width, with subtly lowered corners. Preserve the natural outline of the upper lip and the fullness of the cheeks throughout the expression. If a second image is supplied, use it only to guide the expression and hand placement.\n\nDress her in an oversized burgundy knit sweater, a loose taupe scarf, charcoal cargo trousers and worn lace-up combat boots. Use soft side light from tall factory windows, weathered concrete and rusted steel, with restrained contrast and realistic skin tones. Shoot from seated eye level with a natural 50 mm perspective. Show the full seated pose from buns to boots, keeping the face large enough to read the expression immediately.",
+      "negativePrompt": "Tilted head, kissy puckering, exaggerated frown, squeezed cheeks, narrowed jaw, altered identity, changed eye color, plastic skin, distorted hands, floating elbows, cropped boots, text, watermark.",
+      "referencePhotosRequired": "Wyraźne, możliwie frontalne zdjęcie twarzy. Opcjonalnie drugie zdjęcie jako wzór mimiki i ułożenia dłoni.",
+      "thumbnail": "images/zadziorny-portret-fabryka.jpg",
+      "status": "published",
+      "source": "Prompt użytkowniczki, dopracowany według zaakceptowanej wersji portretu",
+      "provenance": "user_supplied_adapted",
+      "date": "2026-11-10",
+      "profile": ""
+    },
+    {
       "id": "kz-20261110-agatoto-spojrzenie-w-deszczu",
       "title": "AGATOTO · Spojrzenie w deszczu",
       "category": "Unisex",
