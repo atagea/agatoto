@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261110-agatoto-rock-smoky",
+      "title": "AGATOTO · Rock Smoky Eyes",
+      "category": "Kobieta",
+      "description": "Rockowy portret na białym parapecie, z grafitowym makijażem oczu, naturalnymi ustami i masywnym butem na pierwszym planie. Wersja bez okularów lub z czarnymi kocimi oprawkami.",
+      "tags": "rock, smoky eyes, ramoneska, combat boots, 4:5, Agata skan",
+      "prompt": "Create a photorealistic vertical 4:5 fashion portrait using the supplied photo as the sole identity reference. Preserve her recognizable facial features, natural asymmetry, apparent age, skin texture, brown eyes and natural dark shoulder-length hair with a side part. Apply bold rock makeup with charcoal smoky eyes, smudged black eyeliner and a subtle gunmetal sheen. Keep lips bare and naturally colored. Choose one version per image: A, no glasses. B, glossy black angular cat-eye glasses with clear lenses and small silver accents.\n\nSeat her on a broad white windowsill, leaning lightly against the wall, with relaxed, confident direct eye contact. Both knees are bent. Her left hand rests on her left knee, with a simple ring. Her right boot projects toward the camera with a pronounced lug sole in the foreground. Keep facial and body proportions natural. Outfit: black turtleneck and trousers, black leather biker jacket with silver zippers and snaps, chunky platform combat boots with straps and silver buckles. Use soft daylight from the right and a clean, off-white interior.",
+      "negativePrompt": "Lipstick, lip gloss, altered identity, altered iris or hair color, bangs, de-aging, skin smoothing, distorted anatomy, extra fingers, text, logos, watermarks.",
+      "referencePhotosRequired": "Jedno wyraźne zdjęcie referencyjne twarzy i włosów.",
+      "thumbnail": "",
+      "status": "published",
+      "source": "Prompt użytkowniczki z 10 listopada 2026, adaptacja rockowa",
+      "provenance": "user_supplied_adapted",
+      "date": "2026-11-10",
+      "profile": ""
+    },
+    {
       "id": "kz-20261109-agatoto-follow-me",
       "title": "AGATOTO · Follow me",
       "category": "Kobieta",
