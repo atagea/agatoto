@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261112-agatoto-good-vibes",
+      "title": "AGATOTO · GOOD VIBES – figlarny portret",
+      "category": "Kobieta",
+      "description": "Fotorealistyczny portret studyjny z gestem pokoju, mrugnięciem, okularami aviator i bluzą GOOD VIBES. Zachowuje naturalne brązowe oczy, ciemne włosy i rysy osoby ze zdjęcia.",
+      "tags": "good vibes, portret, studio, editorial, peace sign, okulary, 9:16, Agata skan",
+      "prompt": "Create an ultra-photorealistic vertical 9:16 editorial macro beauty portrait of the SAME ADULT WOMAN shown in the uploaded identity reference photograph (Agata Skan). The reference photo is the sole authority for her identity. Preserve her exact recognizable facial geometry, natural asymmetry, cheek fullness, nose, jaw, lips, eye shape, natural skin texture, apparent age and body proportions. IMPORTANT: Preserve the subject's ORIGINAL eye color and ORIGINAL hair color as seen in the reference. For Agata Skan, the irises are NATURALLY DARK BROWN, NEVER emerald, green, blue, grey, hazel or lightened. Her hair is NATURALLY DARK BROWN, NEVER blonde, beige-blonde, highlighted, balayaged or lightened. If the styling description conflicts with the identity reference, ALWAYS follow the identity reference.\n\nArrange her naturally dark, shoulder-length hair in a loosely gathered, voluminous messy top knot with wisps framing the face, without changing its color or inventing extra length. Position oversized round aviator sunglasses with thin gold metal frames and subtle espresso-tinted lenses slightly low on the nose, allowing her natural dark brown eye to remain visible. Add large polished gold hoop earrings and delicate layered gold necklaces with circular and rectangular pendants.\n\nShe raises one hand at face level in a playful peace sign, with SHORT, naturally shaped glossy black nails. Tilt her head playfully toward the raised shoulder; one eye is softly closed in a wink and the other looks toward the camera. She smiles with slightly parted lips and just the tip of her tongue playfully visible. Keep her facial identity and natural proportions intact even during this expression.\n\nDress her in an oversized washed charcoal-black cotton sweatshirt slipping off one shoulder. On the chest, realistic white and coral hand-painted lettering reads 'GOOD VIBES', with a small white heart beneath. Show natural folds and fabric texture. Neutral light-grey seamless studio background, soft diffused key light and subtle rim light, lifelike skin pores and fine facial hairs, natural shadow transitions, subtle film grain, realistic jewelry and lens reflections. Full-frame 105 mm macro lens aesthetic, f/2.0, shallow depth of field, sharp visible eye and face, premium editorial photography, photorealistic natural color grading. Aspect ratio 9:16.\n\nNON-NEGOTIABLE IDENTITY RULE: Never substitute a generic fashion model or change the reference woman's original dark brown eyes, dark brown hair, facial structure, or apparent age.",
+      "negativePrompt": "Green eyes, emerald eyes, hazel eyes, blue eyes, grey eyes, lightened irises, blonde hair, beige blonde hair, highlights, balayage, changed hair color, changed facial identity, generic model face, exaggerated beautification, reshaped nose, narrow cheeks, altered age, unnaturally long hair, long stiletto nails, extra fingers, distorted peace sign, plastic skin, excessive smoothing, misspelled typography, watermark.",
+      "referencePhotosRequired": "Wyraźne zdjęcie twarzy Agata Skan jako obowiązkowy wzorzec tożsamości. Zachowaj naturalne ciemnobrązowe oczy i ciemne włosy; stylizacja nie może ich zmieniać.",
+      "thumbnail": "",
+      "status": "published",
+      "source": "Prompt użytkowniczki z 12 listopada 2026, poprawiony pod kątem niezmienności koloru oczu i włosów",
+      "provenance": "user_supplied_adapted",
+      "date": "2026-11-12",
+      "profile": "Agata skan"
+    },
+    {
       "id": "kz-20261110-agatoto-fabryka",
       "title": "AGATOTO · Zadziorny portret w opuszczonej fabryce",
       "category": "Kobieta",
