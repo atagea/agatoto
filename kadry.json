@@ -316,7 +316,7 @@
       "negativePrompt": "",
       "referencePhotosRequired": "Zdjęcie referencyjne osoby",
       "thumbnail": "",
-      "status": "published",
+      "status": "public_draft",
       "source": "AGATOTO_KATALOG_ODZYSKANY_47.json",
       "provenance": "original_catalog",
       "date": "",
