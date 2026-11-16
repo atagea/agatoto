@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261116-lamppost-noir-street",
+      "title": "Lamppost Noir · Street Editorial 🖤",
+      "category": "Kobieta",
+      "description": "Czarno-biała uliczna sesja w stylu high fashion: biała koszula, czarny krawat i oversize'owy płaszcz, oparcie o latarnię na tle historycznej europejskiej architektury. Pewna siebie, zmysłowa poza, wzrok opuszczony.",
+      "tags": "street editorial, black and white, lamppost, white shirt, black tie, oversized coat, sheer tights, heels, okulary, 3:4",
+      "prompt": "Using the uploaded reference photos of the adult subject, create a striking black-and-white high-fashion street editorial photograph.\n\nABSOLUTE FACE IDENTITY LOCK\nPreserve the subject's real identity as precisely as possible. Face shape, eyes, eyebrows, nose, lips, jawline, hairline and natural skin texture must match the reference photos exactly.\nNo rejuvenation, no idealization, no artificial face slimming, no beauty smoothing. Keep natural pores and texture visible.\n\nPOSE & EXPRESSION\nThe subject leans against an ornate cast-iron lamppost on a city sidewalk. One leg is lifted and bent, the foot resting against the pole; the other leg stands straight. One hand rests in the coat pocket.\nThe head is tilted slightly downward, gaze lowered — a pensive, powerful, self-assured expression. Bold and confident, yet elegant.\n\nSTYLING\nCrisp white button-up shirt with a bold black tie, loosely knotted.\nOversized black wool coat draping dramatically around the silhouette, reaching toward the pavement.\nSheer black tights elongating the legs, glossy black high-heeled sandals with thin ankle straps.\nLoose hair flowing naturally with soft movement, catching the light for texture.\nKeep the subject's real body proportions.\n\nEYEWEAR\nIf the subject wears glasses in the references, keep the same frame shape and proportions — dark rectangular frames, clean lenses, no glare covering the eyes.\n\nSETTING\nHistoric European architecture: stone columns, arched doorways, wrought-iron wall lanterns, bare winter trees. Damp stone pavement with soft reflections, a quiet street receding into the background.\n\nLIGHT & TONE\nMonochrome palette with strong contrast — the deep blacks of the coat and heels against pale stone pavement and building facades.\nSoft yet directional overcast light sculpting the face, highlighting fabric textures and creating cinematic shadows.\nAtmosphere in the spirit of classic Paris fashion editorials and Helmut Newton-era street photography — minimalist, raw and sensual, yet deeply elegant.\n\nCOMPOSITION\nVertical 3:4 full-length format. Subject on the left third against the lamppost, the sidewalk and facades leading the eye into depth on the right.\nUltra-detailed textures, cinematic realism, sharp editorial quality, 50–85 mm lens look, natural film-like grain.\n\nPRIORITIES\n1. Absolute recognizability of the subject.\n2. Natural, anatomically correct pose and legs.\n3. Authentic fabric textures and styling.\n4. Dramatic, elegant black-and-white tonality.\n\nThe result must look like a real, high-end black-and-white fashion photograph of the reference subject — not an artificially idealized AI image.",
+      "negativePrompt": "No altered facial features, no beauty idealization, no rejuvenation, no slimmed body proportions, no distorted legs or feet, no extra limbs, no broken ankle straps, no plastic skin, no color tint, no HDR look, no oversharpening, no text, no logos, no watermarks.",
+      "referencePhotosRequired": "Zdjęcia referencyjne twarzy: przód, trzy czwarte i profil. Opcjonalnie zdjęcie całej sylwetki. Przy okularach zachowaj dokładny kształt oprawek.",
+      "thumbnail": "images/lamppost-noir-street.jpg",
+      "status": "published",
+      "source": "Prompt użytkowniczki z 16 listopada 2026, dopracowany w języku angielskim",
+      "provenance": "user_supplied_adapted",
+      "date": "2026-11-16",
+      "profile": ""
+    },
+    {
       "id": "kz-20261116-wind-in-her-hair",
       "title": "The Wind in Her Hair 🖤 · Black & White Fine Art",
       "category": "Kobieta",
