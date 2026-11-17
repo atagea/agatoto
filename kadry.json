@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261117-wild-rock-girl-floral",
+      "title": "Wild Rock Girl — Floral Dress & Attitude 🤘",
+      "category": "Kobieta",
+      "description": "Rockowa sesja w całej postaci: czarna mini sukienka w drobne bordowe i pudroworóżowe róże, oversize'owa ramoneska i ciężkie glany na platformie. Pewny krok w stronę obiektywu na leśnej ścieżce w złotym świetle, gest „rogów”, mrugnięcie i wystawiony język.",
+      "tags": "rock, editorial, full body, floral dress, mini dress, ramoneska, leather jacket, combat boots, golden hour, outdoor, wink, rock horns, 35mm, okulary, tatuaże, 9:16",
+      "prompt": "WILD ROCK GIRL — FLORAL DRESS & ATTITUDE\n\nCreate an ultra-photorealistic cinematic full-body editorial photograph of the adult subject in the uploaded reference images.\n\nIDENTITY — HIGHEST PRIORITY\nPreserve the subject’s recognizable facial features, apparent age, natural facial asymmetry, eye color, hairstyle, skin texture, and authentic body proportions.\nKeep existing glasses, tattoos, piercings, and distinguishing characteristics as shown in the references. Never invent new tattoos or piercings.\nNo slimming, beautification, de-aging, exaggerated body proportions, or artificial facial reshaping.\n\nSCENE\nA slightly rugged countryside path surrounded by dark green trees and wild vegetation, illuminated by warm late-afternoon sunlight.\nThe background is softly blurred, creating an atmospheric rock-fashion editorial look.\n\nWARDROBE\nA short black floral mini dress with tiny burgundy and dusty-pink roses, thin shoulder straps, a softly fitted bodice, and a playful ruffled skirt.\nAn oversized black leather biker jacket worn open and slightly slipping from the shoulders.\nHeavy black lace-up combat boots with thick platform soles, layered silver necklaces, black leather bracelets, rings, and black nail polish.\n\nPOSE & EXPRESSION\nThe subject walks confidently toward the camera, with natural movement in the dress and hair.\nOne hand casually holds the open leather jacket.\nThe other hand is raised beside the face, making the classic rock-and-roll horns gesture, with index and little fingers extended.\nThe subject playfully winks one eye and sticks out their tongue, with a mischievous, rebellious facial expression.\nIf a tongue piercing is visible in the uploaded references, preserve it accurately.\nThe expression is cheeky, spontaneous, confident, and full of personality.\n\nCOMPOSITION\nVertical 9:16, full-body portrait, head-to-toe framing, both boots completely visible.\nNatural walking anatomy, realistic leg length and proportions, eye-level camera, 35mm lens.\n\nLIGHTING & STYLE\nWarm golden-hour sunlight, cinematic contrast, natural skin texture, subtle film grain, shallow depth of field.\nHigh-end alternative rock fashion photography with authentic, playful energy.",
+      "negativePrompt": "Cropped feet, distorted hands, extra fingers, exaggerated curves, artificial tattoos, invented piercings, generic model facial features, altered identity, slimming, de-aging, plastic skin, excessive retouching, unrealistic leg length, text, logos, watermark.",
+      "referencePhotosRequired": "Wyraźne zdjęcia referencyjne twarzy i sylwetki. Okulary, tatuaże i kolczyki (także w języku) zostaną zachowane tylko wtedy, gdy są widoczne na zdjęciach.",
+      "thumbnail": "",
+      "status": "published",
+      "source": "Prompt użytkowniczki z 17 listopada 2026; usunięto odwołanie do miny z konkretnego zdjęcia referencyjnego",
+      "provenance": "user_supplied_adapted",
+      "date": "2026-11-17",
+      "profile": ""
+    },
+    {
       "id": "kz-20261117-wild-side-rock",
       "title": "Wild Side — Rock Editorial Portrait 🤘",
       "category": "Kobieta",
