@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261117-wild-flower-railway",
+      "title": "Wild Flower — Abandoned Railway 🌹",
+      "category": "Kobieta",
+      "description": "Rockowa sesja w całej postaci na opuszczonym peronie o złotej godzinie: czarna mini sukienka w drobne bordowe i pudroworóżowe kwiaty, rozpięta ramoneska i glany na platformie. Pewny krok w stronę obiektywu, włosy rozwiane wiatrem, półuśmiech.",
+      "tags": "rock, editorial, full body, floral dress, mini dress, ramoneska, leather jacket, combat boots, railway, abandoned platform, graffiti, golden hour, backlight, 9:16",
+      "prompt": "WILD FLOWER — ABANDONED RAILWAY\n\nCreate an ultra-photorealistic cinematic full-body fashion photograph of the adult person in the uploaded reference images.\n\nIDENTITY — HIGHEST PRIORITY\nPreserve the subject’s recognizable face, natural apparent age, authentic hairstyle, eye color, facial proportions, skin texture and real body shape.\nNo waist slimming, stomach flattening, leg lengthening, exaggerated curves or de-aging.\n\nSCENE\nAn abandoned railway platform at golden hour. Weathered brick walls, faded graffiti, old wooden benches, industrial pillars and railway tracks disappearing into the distance.\n\nWARDROBE\nA short black floral dress with tiny burgundy and dusty-rose flowers, delicate shoulder straps, a softly fitted bodice and a playful ruffled hem.\nAn open black leather biker jacket, heavy black lace-up platform combat boots, silver necklaces, rings and black leather bracelets.\n\nPOSE\nThe subject walks toward the camera with a confident natural stride. Both hands lightly hold the open edges of the leather jacket.\nThe dress moves gently in the breeze, and the hair is naturally windblown. A subtle confident half-smile and direct eye contact.\n\nCOMPOSITION\nVertical 9:16, full-body head-to-toe framing, both boots visible, natural body proportions, realistic walking posture, eye-level camera.\n\nLIGHTING\nWarm golden-hour sunlight, beautiful backlighting through the hair, cinematic shadows, subtle film grain and shallow depth of field.\n\nMOOD\nFree-spirited, romantic, slightly rebellious, authentic rock femininity.",
+      "negativePrompt": "Artificial model proportions, distorted anatomy, invented tattoos, excessive skin smoothing, waist slimming, stomach flattening, leg lengthening, exaggerated curves, de-aging, altered identity, extra fingers, cropped feet, plastic skin, text, logos, watermark.",
+      "referencePhotosRequired": "Wyraźne zdjęcia referencyjne twarzy i sylwetki.",
+      "thumbnail": "",
+      "status": "published",
+      "source": "Prompt użytkowniczki z 17 listopada 2026",
+      "provenance": "user_supplied_adapted",
+      "date": "2026-11-17",
+      "profile": ""
+    },
+    {
       "id": "kz-20261117-white-wild-heart-sunset-road",
       "title": "White Wild Heart — Sunset Road 🤍",
       "category": "Kobieta",
