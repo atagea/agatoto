@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261117-rockstar-attitude-close-up",
+      "title": "Rockstar Attitude — Tongue Out Close-Up 🤘",
+      "category": "Unisex",
+      "description": "Bliski rockowy portret z charakterem: mrugnięcie, wystawiony język i gest „rogów” tuż przy twarzy. Ramoneska zsunięta z jednego ramienia, srebrne naszyjniki, czarne paznokcie, ciepłe bursztynowe światło podziemnego studia.",
+      "tags": "rock, close-up, editorial, wink, tongue out, rock horns, ramoneska, leather jacket, silver jewelry, black nails, amber light, film grain, okulary, 4:5",
+      "prompt": "ROCKSTAR ATTITUDE — TONGUE OUT CLOSE-UP\n\nCreate an ultra-photorealistic cinematic tight close-up rock-editorial portrait of the adult subject in the uploaded reference images.\n\nIDENTITY — ABSOLUTE PRIORITY\nPreserve the exact recognizable facial identity, natural apparent age, eyes, eyebrows, nose, lips, jawline, skin texture, facial asymmetry, hair and distinctive features. Preserve existing glasses and piercings only when visible in the references.\nDo not beautify, de-age, slim or reshape the face.\n\nSCENE\nA dark underground rock studio with warm amber tungsten lighting and a softly blurred industrial background.\n\nWARDROBE\nA black fitted top, black leather biker jacket slipping casually from one shoulder, layered silver necklaces, rings and black leather bracelets.\n\nEXPRESSION\nThe subject looks directly at the camera with a cheeky, rebellious expression.\nOne eye is playfully winked shut while the other remains expressive.\nThe tongue is extended naturally toward the camera, preserving any existing tongue piercing visible in the reference photographs.\n\nHAND GESTURE\nOne hand is raised prominently beside the face, forming the classic rock-and-roll horns gesture with index and little fingers extended.\nBlack nail polish, natural finger anatomy and realistic hand proportions.\n\nCOMPOSITION\nVertical 4:5 tight close-up portrait framed from the upper chest up, so the slipping jacket and silver necklaces stay visible. Face and raised hand dominate the frame, intimate camera distance, natural facial perspective.\n\nLIGHTING\nWarm dramatic amber lighting, subtle golden highlights in the hair, deep cinematic shadows, natural skin pores, realistic texture and fine film grain.\n\nMOOD\nWild, mischievous, spontaneous, confident, rebellious and playful.",
+      "negativePrompt": "Extra fingers, missing fingers, distorted hands, incorrect horns gesture, artificial facial features, altered identity, invented piercings, invented tattoos, exaggerated tongue, plastic skin, excessive retouching, distorted wide-angle face, text, logos, watermark.",
+      "referencePhotosRequired": "Wyraźne zdjęcie referencyjne twarzy z przodu. Okulary i kolczyki (także w języku) zostaną zachowane tylko wtedy, gdy są widoczne na zdjęciach.",
+      "thumbnail": "",
+      "status": "published",
+      "source": "Prompt użytkowniczki z 17 listopada 2026; „extreme close-up” zamieniono na ciasny portret od klatki piersiowej, żeby ramoneska i naszyjniki mieściły się w kadrze",
+      "provenance": "user_supplied_adapted",
+      "date": "2026-11-17",
+      "profile": ""
+    },
+    {
       "id": "kz-20261117-wild-flower-railway",
       "title": "Wild Flower — Abandoned Railway 🌹",
       "category": "Kobieta",
