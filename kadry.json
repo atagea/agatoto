@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261117-white-wild-heart-sunset-road",
+      "title": "White Wild Heart — Sunset Road 🤍",
+      "category": "Kobieta",
+      "description": "Romantyczna boho sukienka z białej koronki, ramoneska i ciężkie glany na pustej wiejskiej drodze po deszczu. Mokry asfalt odbija pomarańczowo-złoty zachód słońca, wiatr unosi sukienkę i włosy, pewny krok w stronę obiektywu.",
+      "tags": "rock, fashion, full body, boho, white lace dress, ramoneska, leather jacket, combat boots, sunset, golden hour, wet road, wind, 35mm, 9:16",
+      "prompt": "WHITE WILD HEART — SUNSET ROAD\n\nCreate an ultra-photorealistic cinematic full-body fashion photograph of the adult person in the uploaded reference photographs.\n\nIDENTITY — ABSOLUTE PRIORITY\nPreserve the subject’s recognizable facial identity, natural apparent age, hair color and texture, eye shape and color, facial asymmetry, realistic skin texture and authentic body proportions. No slimming, beautification, de-aging or artificial reshaping.\n\nSCENE\nAn empty countryside road after rain, with wet asphalt reflecting a spectacular orange-and-gold sunset. Dark dramatic clouds, distant fields and a wide cinematic horizon.\n\nWARDROBE\nA romantic ivory-white lace bohemian dress with thin shoulder straps, a softly fitted bodice and a flowing asymmetrical skirt.\nBlack leather biker jacket worn open and casually slipping from the shoulders.\nHeavy black lace-up combat boots with platform soles, layered silver necklaces, leather bracelets and rings.\n\nPOSE\nThe subject walks confidently toward the camera, with a natural stride. The wind lifts the dress and moves the hair freely. One hand lightly holds the flowing fabric while the other arm moves naturally.\nA confident, subtle half-smile and direct eye contact.\n\nCOMPOSITION\nVertical 9:16, full-body head-to-toe photograph, entire boots visible, realistic walking anatomy and natural proportions. Eye-level camera, 35mm lens.\n\nLIGHTING\nDramatic golden-hour backlighting with soft warm fill light on the face, so facial features stay clearly visible. Warm sunset reflections, subtle cinematic shadows, natural skin texture and fine film grain.\n\nMOOD\nRomantic, free-spirited, feminine, rebellious and cinematic.",
+      "negativePrompt": "Artificial body shaping, slimming, distorted anatomy, malformed hands, extra fingers, cropped feet, silhouetted or underexposed face, altered identity, invented tattoos, plastic skin, excessive retouching, text, logos, watermark.",
+      "referencePhotosRequired": "Wyraźne zdjęcia referencyjne twarzy i całej sylwetki.",
+      "thumbnail": "",
+      "status": "published",
+      "source": "Prompt użytkowniczki z 17 listopada 2026; ujednoznaczniono kolor sukienki i dodano doświetlenie twarzy przy świetle z tyłu",
+      "provenance": "user_supplied_adapted",
+      "date": "2026-11-17",
+      "profile": ""
+    },
+    {
       "id": "kz-20261117-midnight-rebel-tulle-neon",
       "title": "Midnight Rebel — Black Tulle & Neon 🖤",
       "category": "Kobieta",
