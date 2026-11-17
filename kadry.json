@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261117-soft-rebellion-cozy-rock",
+      "title": "Soft Rebellion — Cozy Rock Romance 🤍",
+      "category": "Kobieta",
+      "description": "Intymny portret lifestyle w sypialni o późnym popołudniu: kremowy sweter z grubej dzianiny zsunięty z ramion, czarny top i srebrna biżuteria. Złote światło przez żaluzje, paski cienia, półuśmiech i bezpośrednie spojrzenie.",
+      "tags": "lifestyle, editorial, cozy, rock, bedroom, chunky knit, ivory sweater, silver jewelry, golden hour, blinds shadows, half-smile, okulary, tatuaże, 4:5",
+      "prompt": "SOFT REBELLION — COZY ROCK ROMANCE\n\nCreate an ultra-photorealistic intimate lifestyle editorial portrait using the uploaded adult subject’s reference photographs.\n\nIDENTITY — ABSOLUTE PRIORITY\nPreserve the exact recognizable facial identity, natural apparent age, hair, eyes, skin texture, facial asymmetry, and authentic body proportions.\nPreserve existing glasses, tattoos and distinctive features only when visible in the references.\nNo artificial beautification, de-aging or body reshaping.\n\nSCENE\nA warm, intimate bedroom in late afternoon. Soft white bedding, textured blankets and beautiful golden sunlight entering through partially closed blinds.\n\nWARDROBE\nAn oversized ivory chunky-knit sweater worn loosely around the shoulders, with a simple black top underneath.\nDelicate layered necklaces, silver rings and subtle rock-inspired leather bracelets.\n\nPOSE\nThe subject reclines comfortably on soft bedding, leaning slightly toward the camera. One elbow rests naturally on the bed while one hand supports the cheek.\nA relaxed, knowing half-smile and direct, intimate eye contact. Slightly tousled natural hair.\n\nCOMPOSITION\nVertical 4:5 close-to-medium portrait, natural perspective, relaxed shoulders, realistic hands and anatomy.\n\nLIGHTING\nWarm sunlight, delicate striped shadows, soft highlights on the hair, realistic skin texture, shallow depth of field, subtle film grain.\n\nMOOD\nSoft femininity with rebellious undertones. Cozy, confident, sensual in an understated, non-glamorous way.",
+      "negativePrompt": "Excessive retouching, artificial skin smoothing, altered body proportions, altered identity, beautification, de-aging, glamour look, plastic skin, distorted hands, extra fingers, invented tattoos, text, logos, watermark.",
+      "referencePhotosRequired": "Wyraźne zdjęcia referencyjne twarzy i włosów. Okulary i tatuaże zostaną zachowane tylko wtedy, gdy są widoczne na zdjęciach.",
+      "thumbnail": "",
+      "status": "published",
+      "source": "Prompt użytkowniczki z 17 listopada 2026",
+      "provenance": "user_supplied_adapted",
+      "date": "2026-11-17",
+      "profile": ""
+    },
+    {
       "id": "kz-20261117-after-hours-rebel-soul",
       "title": "After Hours — Rebel Soul 🎸",
       "category": "Unisex",
