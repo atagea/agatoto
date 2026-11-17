@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261117-wild-side-rock",
+      "title": "Wild Side — Rock Editorial Portrait 🤘",
+      "category": "Kobieta",
+      "description": "Zadziorny rockowy portret editorial w stylu zdjęcia zza kulis: mrugnięcie, język wystawiony do obiektywu i gest „rogów”. Ramoneska zsunięta z ramion, srebrna biżuteria, ciepłe bursztynowe światło boczne i głębokie czernie.",
+      "tags": "rock, backstage, editorial, wink, rock horns, ramoneska, leather jacket, silver jewelry, amber light, okulary, tatuaże, 4:5",
+      "prompt": "MASTER PROMPT — WILD SIDE | ROCK EDITORIAL PORTRAIT\n\nIDENTITY — ABSOLUTE PRIORITY\nUse the uploaded reference photograph as the sole identity source. Preserve the subject’s recognizable facial features, natural age, face shape, eyes, nose, lips, eyebrows, hairstyle, hair color, skin texture, and natural asymmetry.\nKeep glasses, tattoos, piercings, and other distinctive features only if they appear in the reference photographs. If a tongue piercing is visible in the reference, keep it exactly as it is (same position, size, and metal). Do not invent permanent body modifications.\nNo face replacement, beautification, de-aging, artificial skin smoothing, or changes to natural facial proportions.\n\nSTYLE & ATMOSPHERE\nCreate an ultra-photorealistic, rebellious rock-and-roll editorial portrait with a playful, spontaneous, slightly provocative attitude.\nThe atmosphere combines backstage rock photography, cinematic fashion editorial, and authentic personality.\n\nPOSE & EXPRESSION\nThe subject leans toward the camera with a mischievous, rebellious expression.\nOne eye is playfully winking while the tongue is naturally extended toward the camera.\nOne hand is raised near the face, making the classic rock-and-roll horns gesture: index and little fingers extended, middle and ring fingers folded beneath the thumb.\nThe gesture must be anatomically correct, with five naturally proportioned fingers.\nThe expression feels spontaneous, energetic, cheeky, and genuinely playful — never forced or exaggerated.\n\nWARDROBE & ACCESSORIES\nBlack leather biker jacket, casually draped over the shoulders, paired with a simple black top.\nSubtle silver jewelry, rings, and optional leather accessories.\nKeep the subject’s original hairstyle and hair length, adding only natural movement and slightly tousled strands.\nNo invented tattoos or piercings.\n\nLIGHTING & COMPOSITION\nVertical 4:5 portrait, close-up to medium close-up.\nDramatic cinematic side lighting with warm amber highlights, rich black shadows, and strong contrast.\nDark, softly blurred studio background.\nNatural skin pores, realistic hair strands, authentic fabric and leather textures.\nShot on an 85mm portrait lens, shallow depth of field, subtle analog film grain.\n\nFINAL RESULT\nA striking, edgy, playful high-fashion rock portrait that looks like a spontaneous backstage photograph from a professional editorial shoot.\nBold attitude. Authentic identity. Natural imperfections. Cinematic realism.",
+      "negativePrompt": "Generic model face, altered identity, exaggerated tongue, invented tongue piercing, removed tongue piercing present in the reference, artificial tattoos, extra fingers, distorted hands, unnatural facial expression, plastic skin, excessive retouching, altered hair length, changed eye color, cartoon effect, illustration, artificial beauty filters, text, logos, watermark.",
+      "referencePhotosRequired": "Jedno wyraźne zdjęcie referencyjne twarzy i włosów. Okulary, tatuaże i kolczyki zostaną zachowane tylko wtedy, gdy są widoczne na zdjęciu referencyjnym.",
+      "thumbnail": "images/wild-side-rock-editorial.jpg",
+      "status": "published",
+      "source": "Prompt użytkowniczki z 17 listopada 2026, z dopiskiem o zachowaniu kolczyka z referencji",
+      "provenance": "user_supplied_adapted",
+      "date": "2026-11-17",
+      "profile": ""
+    },
+    {
       "id": "kz-20261116-playful-couple-bw",
       "title": "Couple Portrait — Playful B&W 🖤",
       "category": "Unisex",
