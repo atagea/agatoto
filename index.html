@@ -1,7 +1,102 @@
-<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>KWESTIA ZŁUDZEŃ — Kadry</title><style>:root{color-scheme:dark;--bg:#111114;--panel:#1d1c20;--line:#37333a;--txt:#f4eff0;--muted:#aaa1aa;--pink:#eab1c9}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.5 system-ui,Arial}a{color:var(--pink)}button,input,select,textarea{font:inherit}button{background:#302b33;border:1px solid #4b414b;color:var(--txt);padding:10px 14px;border-radius:9px;cursor:pointer}button.primary{background:var(--pink);color:#24151d;font-weight:700}button:hover{filter:brightness(1.12)}input,select,textarea{background:#151418;border:1px solid #49414a;color:var(--txt);padding:10px;border-radius:8px;width:100%}textarea{min-height:145px;resize:vertical}header{padding:24px 5vw;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}h1{margin:0;font-size:25px;letter-spacing:.03em}h1 em{color:var(--pink);font-family:Georgia,serif}small,.muted{color:var(--muted)}main{max-width:1300px;margin:auto;padding:30px 5vw}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.panel{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:18px}.card{border:1px solid var(--line);background:var(--panel);border-radius:12px;overflow:hidden}.card img,.placeholder{width:100%;height:255px;object-fit:cover;display:block}.placeholder{display:grid;place-items:center;color:#8d808c;background:linear-gradient(135deg,#252126,#17171b);text-align:center;padding:20px}.card section{padding:15px}.card h3{font-size:17px;margin:0 0 8px}.tag{color:var(--pink);font-size:12px}label{display:block;font-size:13px;color:#d8cdd4;margin:12px 0 5px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.55 system-ui}dialog{background:#1d1b20;color:var(--txt);border:1px solid #5a4b59;border-radius:15px;width:min(800px,94vw);max-height:90vh;overflow:auto}dialog::backdrop{background:#000b}.warning{background:#30232b;border-left:3px solid var(--pink);padding:12px;margin:14px 0}#notice{min-height:24px;color:var(--pink)}.ph{position:relative}.sig{position:absolute;right:10px;bottom:8px;font:italic 12px/1 Georgia,serif;letter-spacing:.04em;color:#fff;opacity:.78;text-shadow:0 1px 3px #000c;pointer-events:none}@media(max-width:700px){header{padding:18px}main{padding:20px 12px}}</style></head><body><header><div><h1>KWESTIA <em>ZŁUDZEŃ</em></h1><small>Fotografia wyobraźni · Kadry AI</small></div><div class="row"><a href="studio/">STUDIO</a><button id="favOnly">Ulubione</button></div></header><main><div class="row" style="margin-bottom:20px"><input id="q" placeholder="Szukaj po tytule, opisie i tagach" style="max-width:420px"><select id="cat" style="max-width:200px"><option value="">Wszystkie kategorie</option><option>Kobieta</option><option>Mężczyzna</option><option>Unisex</option><option>Zwierzęta</option></select><label style="margin:0"><input type="checkbox" id="showDrafts" style="width:auto"> Pokaż także publiczne szkice bez miniatur</label></div><p id="count" class="muted"></p><div id="grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px"></div></main><dialog id="dlg"><div class="row" style="justify-content:space-between"><h2 id="dt"></h2><button onclick="dlg.close()">Zamknij</button></div><p id="meta" class="muted"></p><p id="desc"></p><h3>Prompt</h3><pre id="prompt"></pre><h3>Negative prompt</h3><pre id="negative"></pre><p id="refs" class="muted"></p><div class="row"><button class="primary" id="copy">Kopiuj prompt</button><button id="chat">Użyj w ChatGPT</button><button id="favorite">☆ Ulubione</button></div><p class="muted">W ChatGPT wklej skopiowany prompt i dołącz swoje zdjęcie referencyjne. Nie przekazujemy prywatnych zdjęć przez tę stronę.</p></dialog><script>
-let all=[], selected=null,onlyFav=false;let favorites=new Set(JSON.parse(localStorage.getItem('kz_favorites')||'[]'));const $=id=>document.getElementById(id);const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kwestia Złudzenia — Kadry</title>
+<style>
+:root{color-scheme:dark;--bg:#0b0b0c;--panel:#141416;--line:#232326;--txt:#ecebe8;--muted:#8d8c88;--accent:#3ec1b4}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.6 system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+a{color:var(--txt);text-decoration:none}
+button,input,select{font:inherit;color:var(--txt)}
+button{background:transparent;border:1px solid var(--line);padding:8px 14px;border-radius:2px;cursor:pointer;letter-spacing:.06em;font-size:13px;transition:border-color .2s,color .2s}
+button:hover,a.nav:hover{border-color:var(--accent);color:var(--accent)}
+button.primary{border-color:var(--accent);color:var(--accent)}
+button.primary:hover{background:var(--accent);color:#0b0b0c}
+input,select{background:transparent;border:0;border-bottom:1px solid var(--line);padding:9px 2px;border-radius:0;outline:none}
+input:focus,select:focus{border-bottom-color:var(--accent)}
+select option{background:var(--panel)}
+header{position:relative;padding:56px 5vw 34px;text-align:center}
+.logo{display:block;width:min(560px,86vw);height:auto;margin:0 auto}
+.tagline{margin:14px 0 0;color:var(--muted);font-size:12px;letter-spacing:.32em;text-transform:uppercase}
+.topnav{position:absolute;top:18px;right:5vw;display:flex;gap:10px;align-items:center}
+a.nav{border:1px solid var(--line);padding:8px 14px;font-size:13px;letter-spacing:.06em;border-radius:2px;transition:border-color .2s,color .2s}
+main{max-width:1320px;margin:auto;padding:10px 5vw 60px}
+.filters{display:flex;gap:22px;align-items:flex-end;flex-wrap:wrap;margin-bottom:10px}
+.filters input#q{flex:1 1 260px;max-width:420px}
+.filters select{max-width:220px}
+.chk{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:13px;cursor:pointer}
+.chk input{width:auto;accent-color:var(--accent)}
+#count{color:var(--muted);font-size:12px;letter-spacing:.08em;margin:18px 0 26px}
+#grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:34px 22px}
+.card{cursor:pointer}
+.ph{position:relative;aspect-ratio:4/5;overflow:hidden;background:var(--panel)}
+.ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s ease,filter .4s}
+.card:hover .ph img{transform:scale(1.025);filter:brightness(1.06)}
+.sig{position:absolute;left:12px;bottom:10px;font:italic 13px/1 Georgia,serif;letter-spacing:.03em;color:#fff;opacity:.8;text-shadow:0 1px 4px #000d;pointer-events:none}
+.placeholder{aspect-ratio:4/5;display:grid;place-items:center;color:var(--muted);background:var(--panel);text-align:center;padding:20px;font-size:13px}
+.card .meta{padding:12px 0 0}
+.tag{color:var(--accent);font-size:11px;letter-spacing:.18em;text-transform:uppercase}
+.card h3{font-size:15px;font-weight:500;margin:4px 0 0;line-height:1.4}
+dialog{background:var(--bg);color:var(--txt);border:1px solid var(--line);border-radius:0;padding:0;width:min(1100px,95vw);max-height:92vh;overflow:auto}
+dialog::backdrop{background:#000d}
+.dlg{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr)}
+.full{position:relative;background:#000;align-self:start;position:sticky;top:0}
+.full img.photo{width:100%;display:block}
+.full img.podpis{position:absolute;left:4%;bottom:3%;width:28%;height:auto;pointer-events:none}
+.info{padding:28px 30px}
+.info h2{font-weight:500;font-size:22px;margin:6px 0 4px;line-height:1.3}
+.info h3{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:500;margin:26px 0 8px}
+#meta{color:var(--muted);font-size:12px;letter-spacing:.06em;margin:0}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace;background:var(--panel);border-left:1px solid var(--accent);padding:14px 16px;margin:0;max-height:340px;overflow:auto}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.close{position:absolute;top:12px;right:12px;z-index:2;background:#0b0b0cbb}
+.note{color:var(--muted);font-size:12px;margin-top:18px}
+footer{text-align:center;color:var(--muted);font-size:11px;letter-spacing:.2em;padding:30px 0 40px;border-top:1px solid var(--line)}
+@media(max-width:800px){.dlg{grid-template-columns:1fr}.full{position:relative}.info{padding:22px 18px}header{padding:64px 18px 26px}.topnav{right:12px;top:12px}main{padding:10px 14px 40px}#grid{gap:26px 14px;grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}}
+</style>
+</head>
+<body>
+<header>
+  <nav class="topnav"><button id="favOnly">Ulubione</button><a class="nav" href="studio/">Studio</a></nav>
+  <h1 style="margin:0"><img class="logo" src="assets/logo.png" alt="Kwestia Złudzenia"></h1>
+  <p class="tagline">Fotografia wyobraźni · Kadry AI</p>
+</header>
+<main>
+  <div class="filters">
+    <input id="q" placeholder="Szukaj po tytule, opisie i tagach">
+    <select id="cat"><option value="">Wszystkie kategorie</option><option>Kobieta</option><option>Mężczyzna</option><option>Unisex</option><option>Zwierzęta</option></select>
+    <label class="chk"><input type="checkbox" id="showDrafts"> Pokaż także szkice bez miniatur</label>
+  </div>
+  <p id="count"></p>
+  <div id="grid"></div>
+</main>
+<footer>KWESTIA ZŁUDZENIA</footer>
+
+<dialog id="dlg">
+  <button class="close" onclick="dlg.close()">Zamknij</button>
+  <div class="dlg">
+    <div class="full" id="full"></div>
+    <div class="info">
+      <p id="meta"></p>
+      <h2 id="dt"></h2>
+      <p id="desc"></p>
+      <h3>Prompt</h3><pre id="prompt"></pre>
+      <h3>Negative prompt</h3><pre id="negative"></pre>
+      <p id="refs" class="note"></p>
+      <div class="row" style="margin-top:18px"><button class="primary" id="copy">Kopiuj prompt</button><button id="chat">Użyj w ChatGPT</button><button id="favorite">☆ Ulubione</button></div>
+      <p class="note">W ChatGPT wklej skopiowany prompt i dołącz swoje zdjęcie referencyjne. Nie przekazujemy prywatnych zdjęć przez tę stronę.</p>
+    </div>
+  </div>
+</dialog>
+
+<script>
+let all=[],selected=null,onlyFav=false;let favorites=new Set(JSON.parse(localStorage.getItem('kz_favorites')||'[]'));const $=id=>document.getElementById(id);const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 async function load(){try{let r=await fetch('kadry.json?cache='+Date.now());if(!r.ok)throw Error('Brak pliku kadry.json');let d=await r.json();all=d.kadry||[];render()}catch(e){$('count').textContent='Nie udało się wczytać katalogu: '+e.message}}
-function render(){let q=$('q').value.toLowerCase(),cat=$('cat').value;let visible=all.filter(x=>(x.status==='published'||($('showDrafts').checked&&x.status==='public_draft'))&&(!cat||x.category===cat)&&(!onlyFav||favorites.has(x.id))&&[x.title,x.description,x.tags].join(' ').toLowerCase().includes(q));$('count').textContent=`${visible.length} Kadrów · ${all.length} w katalogu · ${all.filter(x=>x.status==='published').length} opublikowanych`; $('grid').innerHTML=visible.map(x=>`<article class="card">${x.thumbnail?`<div class="ph"><img src="${esc(x.thumbnail)}" alt="${esc(x.title)}" loading="lazy" onerror="this.parentNode.replaceWith(Object.assign(document.createElement('div'),{className:'placeholder',textContent:'Nie znaleziono zdjęcia — sprawdź ścieżkę'}))"><span class="sig">Kwestia złudzenia</span></div>`:`<div class="placeholder">Miniatura do uzupełnienia</div>`}<section><div class="tag">${esc(x.category)} ${x.status==='public_draft'?'· SZKIC':''}</div><h3>${esc(x.title)}</h3><button data-id="${esc(x.id)}">Zobacz prompt</button></section></article>`).join('');document.querySelectorAll('[data-id]').forEach(b=>b.onclick=()=>openItem(b.dataset.id))}
-function openItem(id){selected=all.find(x=>x.id===id);if(!selected)return;$('dt').textContent=selected.title;$('meta').textContent=selected.category+' · '+(selected.status==='published'?'Opublikowany':'Szkic publiczny');$('desc').textContent=selected.description||'';$('prompt').textContent=selected.prompt;$('negative').textContent=selected.negativePrompt||'Brak';$('refs').textContent='Zdjęcia referencyjne: '+(selected.referencePhotosRequired||'według promptu');$('favorite').textContent=favorites.has(id)?'★ Usuń z ulubionych':'☆ Ulubione';$('dlg').showModal()}
-$('copy').onclick=async()=>{await navigator.clipboard.writeText(selected.prompt);$('copy').textContent='Skopiowano';setTimeout(()=>$('copy').textContent='Kopiuj prompt',1800)};$('chat').onclick=async()=>{try{await navigator.clipboard.writeText(selected.prompt)}catch(e){}window.open('https://chatgpt.com/','_blank','noopener')};$('favorite').onclick=()=>{favorites.has(selected.id)?favorites.delete(selected.id):favorites.add(selected.id);localStorage.setItem('kz_favorites',JSON.stringify([...favorites]));openItem(selected.id);render()};$('favOnly').onclick=()=>{onlyFav=!onlyFav;$('favOnly').textContent=onlyFav?'Wszystkie':'Ulubione';render()};['q','cat','showDrafts'].forEach(id=>$(id).addEventListener('input',render));load();
-</script></body></html>
+function render(){let q=$('q').value.toLowerCase(),cat=$('cat').value;let visible=all.filter(x=>(x.status==='published'||($('showDrafts').checked&&x.status==='public_draft'))&&(!cat||x.category===cat)&&(!onlyFav||favorites.has(x.id))&&[x.title,x.description,x.tags].join(' ').toLowerCase().includes(q));$('count').textContent=`${visible.length} kadrów · ${all.length} w katalogu · ${all.filter(x=>x.status==='published').length} opublikowanych`;$('grid').innerHTML=visible.map(x=>`<article class="card" data-id="${esc(x.id)}">${x.thumbnail?`<div class="ph"><img src="${esc(x.thumbnail)}" alt="${esc(x.title)}" loading="lazy" onerror="this.parentNode.replaceWith(Object.assign(document.createElement('div'),{className:'placeholder',textContent:'Nie znaleziono zdjęcia — sprawdź ścieżkę'}))"><span class="sig">Kwestia Złudzenia</span></div>`:`<div class="placeholder">Miniatura do uzupełnienia</div>`}<div class="meta"><div class="tag">${esc(x.category)}${x.status==='public_draft'?' · szkic':''}</div><h3>${esc(x.title)}</h3></div></article>`).join('');document.querySelectorAll('.card[data-id]').forEach(b=>b.onclick=()=>openItem(b.dataset.id))}
+function openItem(id){selected=all.find(x=>x.id===id);if(!selected)return;$('full').innerHTML=selected.thumbnail?`<img class="photo" src="${esc(selected.thumbnail)}" alt="${esc(selected.title)}"><img class="podpis" src="assets/podpis.png" alt="">`:'';$('full').style.display=selected.thumbnail?'':'none';$('dt').textContent=selected.title;$('meta').textContent=selected.category+' · '+(selected.status==='published'?'Opublikowany':'Szkic publiczny');$('desc').textContent=selected.description||'';$('prompt').textContent=selected.prompt;$('negative').textContent=selected.negativePrompt||'Brak';$('refs').textContent='Zdjęcia referencyjne: '+(selected.referencePhotosRequired||'według promptu');$('favorite').textContent=favorites.has(id)?'★ Usuń z ulubionych':'☆ Ulubione';if(!$('dlg').open)$('dlg').showModal()}
+$('copy').onclick=async()=>{await navigator.clipboard.writeText(selected.prompt);$('copy').textContent='Skopiowano';setTimeout(()=>$('copy').textContent='Kopiuj prompt',1800)};$('chat').onclick=async()=>{try{await navigator.clipboard.writeText(selected.prompt)}catch(e){}window.open('https://chatgpt.com/','_blank','noopener')};$('favorite').onclick=()=>{favorites.has(selected.id)?favorites.delete(selected.id):favorites.add(selected.id);localStorage.setItem('kz_favorites',JSON.stringify([...favorites]));openItem(selected.id);render()};$('favOnly').onclick=()=>{onlyFav=!onlyFav;$('favOnly').textContent=onlyFav?'Wszystkie':'Ulubione';$('favOnly').classList.toggle('primary',onlyFav);render()};['q','cat','showDrafts'].forEach(id=>$(id).addEventListener('input',render));load();
+</script>
+</body>
+</html>
