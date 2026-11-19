@@ -76,13 +76,14 @@ pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.6 ui-monospace,SFMon
 .navbtn.prev{left:10px}.navbtn.next{right:10px}
 .full{min-height:120px}
 #pos{color:var(--muted);font-size:12px;letter-spacing:.08em}
+.kz-dot{display:inline-block;width:6px;height:6px;margin-left:12px;border-radius:50%;background:var(--accent);opacity:.35;vertical-align:middle;transition:opacity .3s,box-shadow .3s}.kz-dot:hover,.kz-dot:focus-visible{opacity:1;box-shadow:0 0 8px var(--accent)}
 footer{text-align:center;color:var(--muted);font-size:11px;letter-spacing:.2em;padding:30px 0 40px;border-top:1px solid var(--line)}
 @media(max-width:800px){.dlg{grid-template-columns:1fr}.full{position:relative}.info{padding:22px 18px}header{padding:64px 18px 26px}.topnav{right:12px;top:12px}main{padding:10px 14px 40px}#grid{gap:26px 14px;grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}}
 </style>
 </head>
 <body>
 <header>
-  <nav class="topnav"><button id="favOnly">Ulubione</button><a class="nav" href="studio/">Studio</a></nav>
+  <nav class="topnav"><button id="favOnly">Ulubione</button></nav>
   <h1 style="margin:0"><img class="logo" src="assets/logo.png" alt="Kwestia Złudzenia"></h1>
   <p class="tagline">Fotografia wyobraźni · Kadry AI</p>
   <p class="about">Kolekcja promptów do fotorealistycznych portretów AI. Każdy kadr to gotowa scena: światło, stylizacja i nastrój. Ty dodajesz swoje zdjęcie, a model tworzy portret z Twoją twarzą.</p>
@@ -98,7 +99,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;letter-spacing:.2em;p
   <p id="count"></p>
   <div id="grid"></div>
 </main>
-<footer>KWESTIA ZŁUDZENIA</footer>
+<footer>KWESTIA ZŁUDZENIA<a href="studio/" class="kz-dot" aria-label="Pracownia" rel="nofollow"></a></footer>
 
 <dialog id="dlg">
   <button class="close" id="close">Zamknij</button>
