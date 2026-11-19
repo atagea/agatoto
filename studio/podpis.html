@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kwestia Złudzenia — Podpis na zdjęciu</title>
+<style>
+:root{color-scheme:dark;--bg:#0b0b0c;--panel:#141416;--line:#232326;--txt:#ecebe8;--muted:#8d8c88;--accent:#3ec1b4}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.6 system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+a{color:var(--txt);text-decoration:none;border:1px solid var(--line);padding:8px 14px;font-size:13px;border-radius:2px}
+a:hover,button:hover{border-color:var(--accent);color:var(--accent)}
+button{font:inherit;font-size:13px;color:var(--txt);background:transparent;border:1px solid var(--line);padding:8px 14px;border-radius:2px;cursor:pointer;letter-spacing:.04em}
+button.on,button.primary{border-color:var(--accent);color:var(--accent)}
+button.primary:hover{background:var(--accent);color:#0b0b0c}
+header{padding:22px 5vw;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+h1{margin:0;display:flex;align-items:center;gap:14px;font-size:12px;font-weight:500;letter-spacing:.32em;color:var(--accent)}
+h1 img{width:220px}
+main{max-width:1200px;margin:auto;padding:26px 5vw 60px}
+.note{background:var(--panel);border-left:2px solid var(--accent);padding:14px 16px;color:#c9c8c4;font-size:14px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:18px 0}
+.lbl{color:var(--muted);font-size:11px;letter-spacing:.14em;text-transform:uppercase;width:90px}
+.seg{display:flex}.seg button{margin-left:-1px;border-radius:0}.seg button.on{position:relative;z-index:1}
+#drop{border:1px dashed #3a3a3e;padding:34px;text-align:center;color:var(--muted);cursor:pointer}
+#drop.over{border-color:var(--accent);color:var(--accent)}
+#list{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px;margin-top:22px}
+.item canvas{width:100%;height:auto;display:block;background:var(--panel)}
+.item p{margin:6px 0;font-size:12px;color:var(--muted);overflow-wrap:anywhere}
+.item .row{margin:6px 0}
+</style>
+</head>
+<body>
+<header>
+  <h1><img src="../assets/logo.png" alt="Kwestia Złudzenia">PODPIS</h1>
+  <div style="display:flex;gap:10px"><a href="./">Studio</a><a href="../">Galeria</a></div>
+</header>
+<main>
+  <p class="note">Dodaj zdjęcia, a podpis „Kwestia Złudzenia” zostanie wpisany na stałe w plik. Podpis trafia w obszar widoczny na miniaturze w galerii (kadr 4:5). Róg „Auto” wybiera najspokojniejsze miejsce; jeśli podpis wejdzie na coś ważnego, kliknij inny róg pod zdjęciem. Pobrany plik ma tę samą nazwę – wgraj go do folderu <b>images/</b>. Zdjęcia nie są nigdzie wysyłane, wszystko dzieje się w tej przeglądarce. Zachowaj u siebie oryginał bez podpisu.</p>
+  <div class="row"><span class="lbl">Wielkość</span><div class="seg" id="size"><button data-v="0.24">Mały</button><button data-v="0.30" class="on">Średni</button><button data-v="0.38">Duży</button></div></div>
+  <div id="drop">Przeciągnij tu zdjęcia albo kliknij, aby wybrać<input type="file" id="file" accept="image/*" multiple hidden></div>
+  <div class="row"><button class="primary" id="all" hidden>Pobierz wszystkie</button></div>
+  <div id="list"></div>
+</main>
+<script>
+const sig=new Image();sig.src='../assets/podpis.png';
+let size=0.30,items=[];
+const $=id=>document.getElementById(id);
+$('size').onclick=e=>{let b=e.target.closest('button');if(!b)return;size=+b.dataset.v;[...$('size').children].forEach(x=>x.classList.toggle('on',x===b));items.forEach(draw)};
+$('drop').onclick=()=>$('file').click();
+$('file').onchange=e=>add([...e.target.files]);
+['dragover','dragenter'].forEach(t=>$('drop').addEventListener(t,e=>{e.preventDefault();$('drop').classList.add('over')}));
+['dragleave','drop'].forEach(t=>$('drop').addEventListener(t,e=>{e.preventDefault();$('drop').classList.remove('over')}));
+$('drop').addEventListener('drop',e=>add([...e.dataTransfer.files].filter(f=>f.type.startsWith('image/'))));
+function geom(W,H){let vw,vh,ox,oy;if(H/W>1.25){vw=W;vh=Math.round(W*1.25);ox=0;oy=Math.round((H-vh)/2)}else{vh=H;vw=Math.round(H/1.25);ox=Math.round((W-vw)/2);oy=0}
+ let w=Math.round(vw*size),h=Math.round(sig.height*w/sig.width),mx=Math.round(vw*.03),my=Math.round(vh*.025),y=oy+vh-h-my;
+ return{w,h,c:{L:[ox+mx,y],C:[ox+Math.round((vw-w)/2),y],R:[ox+vw-w-mx,y]}}}
+function busy(ctx,x,y,w,h){let d=ctx.getImageData(x,y,w,h).data,n=0,s=0,s2=0,e=0,prev=null;for(let i=0;i<d.length;i+=16){let l=.299*d[i]+.587*d[i+1]+.114*d[i+2];s+=l;s2+=l*l;n++;if(prev!==null)e+=Math.abs(l-prev);prev=l}let m=s/n;return e/n*2+Math.sqrt(Math.max(0,s2/n-m*m))+Math.max(0,m-120)*.5}
+function draw(it){let cv=it.cv,ctx=cv.getContext('2d');cv.width=it.img.naturalWidth;cv.height=it.img.naturalHeight;ctx.drawImage(it.img,0,0);
+ let g=geom(cv.width,cv.height),pos=it.pos;if(pos==='A'){let sc={};for(let k in g.c)sc[k]=busy(ctx,g.c[k][0],g.c[k][1],g.w,g.h)+(k==='C'?4:0);pos=Object.keys(sc).sort((a,b)=>sc[a]-sc[b])[0]}
+ ctx.drawImage(sig,g.c[pos][0],g.c[pos][1],g.w,g.h);it.used=pos;it.el.querySelectorAll('.seg button').forEach(b=>b.classList.toggle('on',b.dataset.p===it.pos))}
+function add(files){files.forEach(f=>{let it={file:f,pos:'A',img:new Image()};it.el=document.createElement('div');it.el.className='item';
+ it.el.innerHTML=`<canvas></canvas><p>${f.name.replace(/[<>&]/g,'')}</p><div class="row"><div class="seg">${[['A','Auto'],['L','Lewo'],['C','Środek'],['R','Prawo']].map(p=>`<button data-p="${p[0]}">${p[1]}</button>`).join('')}</div></div><button class="primary">Pobierz</button>`;
+ it.cv=it.el.querySelector('canvas');it.el.querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{it.pos=b.dataset.p;draw(it)});it.el.querySelector('button.primary').onclick=()=>save(it);
+ $('list').appendChild(it.el);items.push(it);$('all').hidden=false;
+ it.img.onload=()=>sig.complete?draw(it):sig.addEventListener('load',()=>draw(it),{once:true});it.img.src=URL.createObjectURL(f)})}
+function save(it){let png=/\.png$/i.test(it.file.name);it.cv.toBlob(b=>{let a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=it.file.name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000)},png?'image/png':'image/jpeg',.92)}
+$('all').onclick=()=>items.forEach((it,i)=>setTimeout(()=>save(it),i*400));
+</script>
+</body>
+</html>
