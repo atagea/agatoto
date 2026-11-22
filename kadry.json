@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261122-desert-highway-double-exposure",
+      "title": "Desert Highway · podwójna ekspozycja na pustyni",
+      "category": "Mężczyzna",
+      "description": "Filmowa podwójna ekspozycja o zachodzie słońca: po prawej postać w pełnej sylwetce idzie pustą pustynną autostradą w czarnej dżinsowej kurtce, z dłonią przy okularach przeciwsłonecznych; po lewej duży, zamyślony portret z profilu półbokiem wtopiony w pomarańczowe niebo i góry.",
+      "tags": "double exposure, desert, highway, sunset, golden hour, cinematic, full body, close-up portrait, denim jacket, sunglasses, wristwatch, mountains, birds, orange, amber, fashion editorial, 4:5",
+      "prompt": "DESERT HIGHWAY — DOUBLE EXPOSURE IN THE DESERT\n\nCreate a powerful, ultra-photorealistic cinematic double-exposure composition featuring the adult man from the uploaded reference photographs.\n\nIDENTITY — ABSOLUTE PRIORITY\nUse the uploaded reference photographs as the sole source of the subject's identity.\nPreserve his recognizable facial identity, exact facial characteristics, face shape, facial proportions, eye color, skin tone, hairstyle, natural age and body proportions.\nDo not redesign, beautify, age, de-age or reinterpret his face.\n\nCOMPOSITION\nOn the right side, show a full-body version of the same man walking confidently toward the camera along an empty desert highway at sunset. He wears a black denim jacket over a clean white T-shirt, gray jeans, white sneakers, dark sunglasses and a wristwatch. One hand naturally adjusts his sunglasses while the other rests in his jeans pocket. His posture is relaxed, masculine and confident.\nOn the left side, integrate a large close-up / half-portrait of the same man looking thoughtfully to the side, softly blended into the dramatic sky and the distant mountains. Both representations must unmistakably be the same person and preserve the reference identity.\n\nENVIRONMENT\nVast desert landscape with dry, rocky terrain, a long empty highway with a yellow center line disappearing into the distance, faraway mountains, a few birds in the sky and sparse dry vegetation. Rich orange, amber and golden sunset tones with dramatic cinematic clouds and realistic atmospheric depth.\n\nSTYLE & LIGHTING\nPremium cinematic fashion editorial, warm sunset backlight, realistic shadows, natural skin texture, realistic fabric detail, subtle atmospheric haze, rich contrast and filmic color grading. Photorealistic DSLR quality, highly detailed, realistic anatomy and proportions.\n\nFORMAT\nVertical 4:5 composition, high resolution.",
+      "negativePrompt": "Altered identity, generic model face, beautification, de-aging, aging, facial reshaping, artificial skin smoothing, beauty filters, different person in the two exposures, distorted hands, extra or missing fingers, duplicated body parts, distorted limbs, hard cut-out edges between portrait and sky, illustration, CGI look, text, logos, watermarks.",
+      "referencePhotosRequired": "Wyraźne zdjęcie referencyjne twarzy mężczyzny, najlepiej z kilku ujęć.",
+      "thumbnail": "images/desert-highway-double-exposure.jpg",
+      "status": "published",
+      "source": "Prompt użytkowniczki z 22 listopada 2026; poprawiony do zdjęcia: wydmy zastąpione suchym, skalistym terenem (na zdjęciu ich nie ma), autostrada prosta z żółtą linią zamiast krętej, druga dłoń w kieszeni, zakazy przeniesione do negative prompt",
+      "provenance": "user_supplied_adapted",
+      "date": "2026-11-22",
+      "profile": ""
+    },
+    {
       "id": "kz-20261120-half-the-truth-shadow",
       "title": "Half the Truth · co ukrywa cień",
       "category": "Unisex",
