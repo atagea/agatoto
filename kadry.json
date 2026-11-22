@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261122-midnight-arrival-black-coat-suv",
+      "title": "Midnight Arrival · terenówka i czarny płaszcz",
+      "category": "Mężczyzna",
+      "description": "Nastrojowy filmowy portret w pełnej sylwetce o zmierzchu w deszczu: mężczyzna w czarnym wełnianym płaszczu i okularach opiera się z założonymi rękami o czarną terenówkę z jarzącym się reflektorem. Mokry bruk odbija ciepłe światło lamp przed nowoczesnym domem, w tle zimna, mglista zieleń.",
+      "tags": "rain, dusk, moody, cinematic, black coat, black SUV, off-road, G-Class, headlight, wet pavement, reflections, amber, blue, eyeglasses, wristwatch, arms crossed, full body, fashion editorial, luxury, 2:3",
+      "prompt": "MIDNIGHT ARRIVAL — BLACK COAT AND THE OFF-ROADER\n\nCreate an ultra-photorealistic cinematic moody editorial portrait of the adult man from the uploaded reference photographs.\n\nIDENTITY — ABSOLUTE PRIORITY\nUse the uploaded reference photographs as the sole source of the subject's identity.\nPreserve his recognizable facial identity, exact facial characteristics, face shape, facial proportions, eye color, skin tone, hairstyle, natural age and body proportions.\nRetain eyeglasses and other distinctive features only when present in the reference photographs.\nDo not redesign, beautify, age, de-age or reinterpret his face. No artificial skin smoothing or generic model features.\n\nSCENE\nDusk, in the rain, in front of a modern stone-and-glass house with warm wall lights and softly lit shrubs. A black luxury G-Class off-road SUV is parked in the paved driveway, its round LED headlight ring glowing, the bodywork and windshield covered in fine raindrops. The wet stone paving reflects the warm amber lights like liquid gold. Misty, bare trees in the cold blue background.\n\nCOMPOSITION\nFull-body vertical portrait. The man leans casually against the front fender of the SUV with arms crossed and legs crossed at the ankle, looking thoughtfully off to the side with a calm, confident expression. Natural, relaxed, masculine posture.\n\nWARDROBE & ACCESSORIES\nA long black wool overcoat worn open over a black knit sweater, black tailored trousers, black leather lace-up boots, a dark wristwatch on the wrist and dark rectangular eyeglasses.\n\nSTYLE & LIGHTING\nCinematic fashion editorial with a cold blue ambient dusk and warm amber accent lights, glossy reflections on wet surfaces, rich contrast, deep blacks, subtle atmospheric mist and filmic color grading. Natural skin texture, realistic fabric detail, realistic raindrops, photorealistic DSLR quality, highly detailed, realistic anatomy and proportions.\n\nFORMAT\nVertical 2:3 composition, high resolution.",
+      "negativePrompt": "Altered identity, generic model face, beautification, de-aging, aging, facial reshaping, body slimming, artificial skin smoothing, beauty filters, invented tattoos or piercings, changed hair color, distorted hands, extra or missing fingers, distorted limbs, flat lighting, dry pavement, sunny daylight, illustration, CGI look, text, logos, watermarks.",
+      "referencePhotosRequired": "Wyraźne zdjęcie referencyjne twarzy mężczyzny, najlepiej z kilku ujęć. Okulary zostaną zachowane tylko wtedy, gdy są widoczne na zdjęciu.",
+      "thumbnail": "images/midnight-arrival-black-coat-suv.jpg",
+      "status": "published",
+      "source": "Prompt napisany na podstawie wygenerowanego zdjęcia (22 listopada 2026): zmierzch w deszczu, czarny płaszcz, czarna terenówka z jarzącym się reflektorem, mokry bruk z odbiciami, nowoczesny dom w tle, założone ręce, skrzyżowane nogi, okulary i zegarek; zakazy w negative prompt",
+      "provenance": "generated_from_image",
+      "date": "2026-11-22",
+      "profile": ""
+    },
+    {
       "id": "kz-20261122-desert-highway-double-exposure",
       "title": "Desert Highway · podwójna ekspozycja na pustyni",
       "category": "Mężczyzna",
