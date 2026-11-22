@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261122-black-smoke-cinematic-disintegration",
+      "title": "Black Smoke · kinowa dezintegracja w dymie",
+      "category": "Mężczyzna",
+      "description": "Mroczny, kinowy portret w pełnej sylwetce: mężczyzna w czarnej koszuli i okularach przeciwsłonecznych idzie prosto w stronę kamery po mokrej, odbijającej światło posadzce, a prawa strona jego ciała rozpada się w czarny dym, popiół i drobne odłamki. W mglistym tle świeci pojedynczy reflektor i stoją nieostre sylwetki.",
+      "tags": "black smoke, disintegration, dispersion, ash, particles, noir, dark, cinematic, fog, wet asphalt, reflections, sunglasses, black shirt, walking, full body, dark fantasy, fashion editorial, 4:5",
+      "prompt": "BLACK SMOKE — CINEMATIC DISINTEGRATION\n\nCreate an ultra-photorealistic cinematic dark-fantasy editorial portrait of the adult man from the uploaded reference photographs.\n\nIDENTITY — ABSOLUTE PRIORITY\nUse the uploaded reference photographs as the sole source of the subject's identity.\nPreserve his recognizable facial identity, exact facial characteristics, face shape, facial proportions, eye color, skin tone, hairstyle, natural age and body proportions.\nDo not redesign, beautify, age, de-age or reinterpret his face. No artificial skin smoothing or generic model features.\n\nCOMPOSITION\nFull-body vertical portrait. The man walks slowly and confidently straight toward the camera across a wet, reflective surface, with a calm, slightly smug expression. His left arm hangs naturally at his side, his right sleeve is rolled up.\nThe right side of his body (the viewer's right) gradually disintegrates into black smoke, ash and small dark fragments that drift away to the side. The disintegration begins at the shoulder and arm and spreads along the torso and leg, while his face, left side and both feet remain intact and sharp. The smoke has realistic volume, swirling wisps and fine particles; the edge between solid body and dissolving smoke is soft and believable.\n\nWARDROBE & ACCESSORIES\nA black button-up shirt with the sleeves rolled up and the collar slightly open, a black leather belt, dark gray tailored trousers, black polished leather lace-up shoes and dark Wayfarer-style sunglasses.\n\nENVIRONMENT\nA dark, foggy, empty space with a wet asphalt floor that reflects a faint cold light. A single distant spotlight glows through the mist in the background, and a few indistinct silhouettes of people stand motionless in the fog, completely out of focus.\n\nSTYLE & LIGHTING\nDark noir cinematic atmosphere with a cold blue-gray palette, deep blacks, soft volumetric haze and a subtle rim light separating him from the background. Natural skin texture, realistic fabric detail, glossy wet reflections and filmic color grading. Photorealistic DSLR quality, highly detailed, realistic anatomy and proportions.\n\nFORMAT\nVertical 4:5 composition, high resolution.",
+      "negativePrompt": "Altered identity, generic model face, beautification, de-aging, aging, facial reshaping, artificial skin smoothing, beauty filters, face dissolving into smoke, gore, blood, wounds, missing limbs that look injured, distorted hands, extra or missing fingers, duplicated body parts, flat lighting, bright daylight, cartoon or video-game look, illustration, CGI look, text, logos, watermarks.",
+      "referencePhotosRequired": "Wyraźne zdjęcie referencyjne twarzy mężczyzny, najlepiej z kilku ujęć.",
+      "thumbnail": "images/black-smoke-cinematic-disintegration.jpg",
+      "status": "published",
+      "source": "Prompt napisany na podstawie wygenerowanego zdjęcia (22 listopada 2026): idący w stronę kamery mężczyzna w czarnej koszuli i okularach, prawa strona ciała rozpadająca się w dym i odłamki przy nienaruszonej twarzy i stopach, mokra posadzka, mgła, pojedynczy reflektor i nieostre sylwetki w tle; zakazy w negative prompt",
+      "provenance": "generated_from_image",
+      "date": "2026-11-22",
+      "profile": ""
+    },
+    {
       "id": "kz-20261122-midnight-arrival-black-coat-suv",
       "title": "Midnight Arrival · terenówka i czarny płaszcz",
       "category": "Mężczyzna",
