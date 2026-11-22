@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261122-palace-fountain-golden-hour",
+      "title": "Palace Fountain · męski portret przy fontannie",
+      "category": "Mężczyzna",
+      "description": "Elegancki portret w pełnej sylwetce o złotej godzinie: mężczyzna w czarnym garniturze, białej koszuli i okularach opiera się o kamienną fontannę przed pałacową fasadą, z jedną dłonią w kieszeni, i patrzy w dal. Woda mieni się w ciepłym słońcu, a mokry bruk odbija złote światło.",
+      "tags": "golden hour, palace, fountain, classical architecture, black suit, white shirt, pocket square, eyeglasses, wristwatch, wet cobblestones, warm light, rim light, autumn, elegant, full body, fashion editorial, luxury, 4:5",
+      "prompt": "PALACE FOUNTAIN — GOLDEN HOUR ELEGANCE\n\nCreate an ultra-photorealistic cinematic fashion editorial portrait of the adult man from the uploaded reference photographs.\n\nIDENTITY — ABSOLUTE PRIORITY\nUse the uploaded reference photographs as the sole source of the subject's identity.\nPreserve his recognizable facial identity, exact facial characteristics, face shape, facial proportions, eye color, skin tone, hairstyle, natural age and body proportions.\nRetain eyeglasses and other distinctive features only when present in the reference photographs.\nDo not redesign, beautify, age, de-age or reinterpret his face. No artificial skin smoothing or generic model features.\n\nCOMPOSITION\nFull-body vertical portrait. The man stands in a relaxed, elegant pose in front of a large stone fountain, his weight leaning slightly against the fountain basin, legs crossed at the ankle, one hand in his trouser pocket and the other hanging naturally. His head is turned slightly to the side and he looks thoughtfully into the distance with a calm, confident expression.\n\nWARDROBE & ACCESSORIES\nA tailored black suit jacket worn over a crisp white shirt with an open collar and a white pocket square, matching black trousers, a black leather belt with a silver buckle, black polished leather lace-up shoes, a dark wristwatch and dark rectangular eyeglasses.\n\nENVIRONMENT\nThe courtyard of a classical palace at golden hour. A richly carved travertine fountain with sculpted figures, water cascading in sparkling streams that catch the sunlight. In the background an ornate stone facade with tall arched windows, a wrought-iron lantern, stone urns with flowers, a trimmed topiary and warm autumn trees. Wet cobblestones reflect the golden light.\n\nSTYLE & LIGHTING\nWarm, low golden-hour sun from the side, creating a soft rim light on the hair and shoulders, glowing highlights on the water and long soft shadows. Rich warm tones with gentle contrast, subtle atmospheric haze and filmic color grading. Natural skin texture, realistic fabric detail, realistic water and stone texture. Photorealistic DSLR quality, shallow depth of field, highly detailed, realistic anatomy and proportions.\n\nFORMAT\nVertical 4:5 composition, high resolution.",
+      "negativePrompt": "Altered identity, generic model face, beautification, de-aging, aging, facial reshaping, body slimming, artificial skin smoothing, beauty filters, invented tattoos or piercings, changed hair color, distorted hands, extra or missing fingers, distorted limbs, flat lighting, overcast sky, harsh midday sun, oversaturated colors, illustration, CGI look, text, logos, watermarks.",
+      "referencePhotosRequired": "Wyraźne zdjęcie referencyjne twarzy mężczyzny, najlepiej z kilku ujęć. Okulary zostaną zachowane tylko wtedy, gdy są widoczne na zdjęciu.",
+      "thumbnail": "images/palace-fountain-golden-hour.jpg",
+      "status": "published",
+      "source": "Prompt napisany na podstawie wygenerowanego zdjęcia (22 listopada 2026): czarny garnitur z białą koszulą i poszetką, oparcie o kamienną fontannę, nogi skrzyżowane w kostkach, dłoń w kieszeni, pałacowy dziedziniec o złotej godzinie, mokry bruk z odbiciami, okulary i zegarek; zakazy w negative prompt",
+      "provenance": "generated_from_image",
+      "date": "2026-11-22",
+      "profile": ""
+    },
+    {
       "id": "kz-20261122-black-smoke-cinematic-disintegration",
       "title": "Black Smoke · kinowa dezintegracja w dymie",
       "category": "Mężczyzna",
