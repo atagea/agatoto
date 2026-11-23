@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261123-a-wink-and-a-kiss-monochrome-playfulness",
+      "title": "A Wink & A Kiss · monochromatyczna zadziorność",
+      "category": "Unisex",
+      "description": "Czarno-biały portret fine-art w ekstremalnym zbliżeniu: mrugnięcie, usta złożone do całusa i niedbałe koki po bokach głowy. Miękkie, kierunkowe światło, głębokie czernie, srebrne światła i naturalna faktura skóry.",
+      "tags": "black and white, fine art, editorial, extreme close-up, wink, kiss lips, messy buns, eyeglasses, 85mm, f/1.8, old hollywood, studio, playful, 4:5",
+      "prompt": "A WINK & A KISS — MONOCHROME PLAYFULNESS\n\nULTRA-PHOTOREALISTIC 8K | BLACK & WHITE FINE-ART EDITORIAL | EXTREME CLOSE-UP PORTRAIT | UNISEX\n\nCreate ONE ultra-photorealistic, cinematic black-and-white studio portrait of the adult person in the uploaded reference photograph.\n\nIDENTITY — ABSOLUTE PRIORITY\nUse the uploaded reference photograph as the sole authoritative identity source.\nPreserve the subject’s exact recognizable facial identity, natural apparent age, facial structure, eye shape, eyebrows, nose, lips, jawline, cheek fullness, skin texture, and natural facial asymmetry.\nMaintain the subject’s authentic body proportions, including the natural width and fullness of the neck, chin, and lower face.\nNo beautification, de-aging, facial slimming, neck thinning, reshaping, or artificial skin smoothing.\n\nEXPRESSION — A PLAYFUL WINK & KISS\nThe subject looks directly into the camera with one eye naturally closed in a playful wink.\nThe lips are gently puckered as though blowing a spontaneous kiss toward the viewer.\nThe expression is playful, charismatic, confident, and slightly cheeky, regardless of gender.\nPreserve the subject’s natural lip shape and fullness. Avoid exaggerated duck lips or distorted facial anatomy.\n\nHAIR — NATURAL MESSY STYLING\nPreserve the subject’s original hair color, hairline, texture, and natural density.\nFor medium or long hair, create two intentionally messy, loosely styled buns high on either side of the head, with natural flyaways and face-framing strands.\nFor short hair, preserve the original haircut and create a slightly tousled, naturally textured appearance without adding artificial length or buns.\nPreserve facial hair and distinctive features when present in the reference.\nRetain eyeglasses when present, preserving their original frame shape and proportions.\n\nCOMPOSITION — EXTREME CLOSE-UP\nVertical 4:5 portrait.\nCamera positioned at eye level.\nThe face fills approximately 85–90% of the frame.\nInclude the complete face, visible hairstyle, natural chin, and a small portion of the neck.\nAvoid unnatural neck elongation, narrowing, or distortion.\nNo hands, distracting accessories, or unnecessary background elements.\n\nLIGHTING & PHOTOGRAPHY\nHigh-end black-and-white fine-art studio photography.\nSoft directional beauty lighting with sculpted highlights and gentle cinematic shadows.\nRich charcoal blacks, luminous silver highlights, realistic tonal transitions, and elegant monochromatic contrast.\nProfessional full-frame camera, 85mm portrait lens, f/1.8, shallow depth of field, sharp facial details, realistic pores, and authentic skin texture.\n\nFINAL AESTHETIC\nLuxury editorial photography meets timeless Old Hollywood portraiture.\nPlayful, spontaneous, stylish, expressive, and effortlessly charismatic.\nThe finished image must resemble a genuine professional studio photograph rather than an AI-generated illustration.",
+      "negativePrompt": "Identity change, face swapping, gender transformation, facial reshaping, exaggerated lips, exaggerated duck lips, artificial skin smoothing, slimming, elongated or unnaturally thin neck, altered body proportions, extra eyes, anatomical distortions, cartoon effects, color, text, typography, signatures, logos, watermarks.",
+      "referencePhotosRequired": "Wyraźne zdjęcie referencyjne twarzy. Okulary, zarost i fryzura zostaną zachowane tylko wtedy, gdy są widoczne na zdjęciu.",
+      "thumbnail": "images/wink-and-kiss-monochrome-playfulness.jpg",
+      "status": "published",
+      "source": "Prompt użytkowniczki z 23 listopada 2026, wklejony bez zmian w treści; sekcja negative prompt wydzielona do osobnego pola",
+      "provenance": "user_supplied_adapted",
+      "date": "2026-11-23",
+      "profile": ""
+    },
+    {
       "id": "kz-20261122-palace-fountain-golden-hour",
       "title": "Palace Fountain · męski portret przy fontannie",
       "category": "Mężczyzna",
