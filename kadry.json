@@ -3,6 +3,22 @@
   "version": 2,
   "kadry": [
     {
+      "id": "kz-20261123-cheeky-rebel-bw-playful",
+      "title": "Cheeky Rebel · zadziorny portret w czerni i bieli",
+      "category": "Unisex",
+      "description": "Zadziorny czarno-biały portret redakcyjny w ciasnym kadrze: mrugnięcie i lekko wystawiony język w kąciku ust. Rozczochrane włosy, ciemny minimalistyczny strój, miękkie światło studyjne i naturalna faktura skóry.",
+      "tags": "black and white, editorial, close-up, wink, tongue out, cheeky, rebel, tousled hair, eyeglasses, dark minimalist clothing, 85mm, studio, playful, 4:5",
+      "prompt": "CHEEKY REBEL — BLACK & WHITE PLAYFUL EDITORIAL\n\nCreate an ultra-photorealistic, high-end black-and-white editorial close-up portrait of the adult subject in the uploaded reference photograph.\n\nIDENTITY — ABSOLUTE PRIORITY\nUse the reference photograph as the sole identity source. Preserve the subject’s recognizable facial features, natural apparent age, forehead, eye shape, eyebrows, nose, lips, jawline, cheek fullness, skin texture, hair color and natural facial asymmetry. Preserve the authentic neck width and body proportions. Retain glasses, facial hair, piercings and existing tattoos when present.\nNo beautification, slimming, de-aging or facial reshaping.\n\nEXPRESSION\nThe subject looks directly at the camera, playfully winking one eye while extending the tongue slightly toward one corner of the mouth. The expression is spontaneous, cheeky, rebellious and charming. Preserve natural mouth anatomy and realistic facial muscle movement.\n\nCOMPOSITION\nVertical 4:5 portrait. Tight close-up from slightly above shoulder level. Head tilted subtly, natural shoulders, relaxed posture. Hair casually tousled while preserving its original length and texture. Dark minimalist clothing.\n\nLIGHTING\nProfessional monochrome studio photography, soft directional lighting, rich charcoal shadows, silver highlights, realistic skin pores, 85mm portrait lens, shallow depth of field.\n\nREQUIREMENTS\nOne person, authentic identity, natural neck proportions, anatomically correct expression.",
+      "negativePrompt": "Exaggerated tongue, artificial skin smoothing, identity change, facial reshaping, slimming, de-aging, altered neck proportions, distorted mouth anatomy, second person, color, text, logos, signatures, watermarks.",
+      "referencePhotosRequired": "Wyraźne zdjęcie referencyjne twarzy. Okulary, zarost, kolczyki i tatuaże zostaną zachowane tylko wtedy, gdy są widoczne na zdjęciu.",
+      "thumbnail": "images/cheeky-rebel-bw-playful.jpg",
+      "status": "published",
+      "source": "Prompt użytkowniczki z 23 listopada 2026; sekcja STRICT REQUIREMENTS rozdzielona: część pozytywna w prompcie, zakazy w negative prompt",
+      "provenance": "user_supplied_adapted",
+      "date": "2026-11-23",
+      "profile": ""
+    },
+    {
       "id": "kz-20261123-sunflower-monochrome-beauty",
       "title": "Sunflower · monochromatyczne piękno z kolorowym akcentem",
       "category": "Unisex",
