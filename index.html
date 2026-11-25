@@ -91,7 +91,7 @@ footer{text-align:center;color:var(--muted);font-size:11px;letter-spacing:.2em;p
 </header>
 <main>
   <div class="filters">
-    <input id="q" placeholder="Szukaj po tytule, opisie i tagach">
+    <input id="q" placeholder="Szukaj po numerze, tytule, opisie i tagach">
     <select id="cat"><option value="">Wszystkie kategorie</option><option>Kobieta</option><option>Mężczyzna</option><option>Unisex</option><option>Zwierzęta</option></select>
     <select id="sort"><option value="new">Najnowsze</option><option value="old">Najstarsze</option><option value="az">Alfabetycznie</option></select>
     <label class="chk"><input type="checkbox" id="showDrafts"> Pokaż też kadry bez zdjęcia</label>
@@ -129,9 +129,9 @@ async function load(){try{let r=await fetch('kadry.json?cache='+Date.now());if(!
 function sorted(list){let s=$('sort').value;let byDate=(a,b)=>(b.date||'').localeCompare(a.date||'')||a._i-b._i;
  if(s==='new')return list.sort(byDate);if(s==='old')return list.sort((a,b)=>-byDate(a,b));return list.sort((a,b)=>a.title.localeCompare(b.title,'pl'))}
 function fallback(img){let o=img.dataset.orig;if(o&&img.src.indexOf(o)<0){img.src=o}else{img.parentNode.replaceWith(Object.assign(document.createElement('div'),{className:'placeholder',textContent:'Nie znaleziono zdjęcia — sprawdź ścieżkę'}))}}
-function render(){let q=$('q').value.toLowerCase(),cat=$('cat').value;let more=$('showDrafts').checked;visible=sorted(all.filter(x=>(more?(x.status==='published'||x.status==='public_draft'):(x.status==='published'&&x.thumbnail))&&(!cat||x.category===cat)&&(!onlyFav||favorites.has(x.id))&&[x.title,x.description,x.tags].join(' ').toLowerCase().includes(q)));
+function render(){let q=$('q').value.toLowerCase(),cat=$('cat').value;let more=$('showDrafts').checked;visible=sorted(all.filter(x=>(more?(x.status==='published'||x.status==='public_draft'):(x.status==='published'&&x.thumbnail))&&(!cat||x.category===cat)&&(!onlyFav||favorites.has(x.id))&&(/^#?\d+$/.test(q.trim()) ? x._i+1===Number(q.trim().replace('#','')) : [x.title,x.description,x.tags].join(' ').toLowerCase().includes(q))));
  let pub=all.filter(x=>x.status==='published'),noPh=pub.filter(x=>!x.thumbnail).length;$('count').textContent=`${visible.length} kadrów na liście · ${pub.length} opublikowanych`+(noPh?` · ${noPh} bez zdjęcia`+(more?'':' (ukryte)'):'');
- $('grid').innerHTML=visible.map(x=>`<article class="card" data-id="${esc(x.id)}">${x.thumbnail?`<div class="ph"><img src="${esc(variant(x.thumbnail,'thumbs'))}" data-orig="${esc(x.thumbnail)}" alt="${esc(x.title)}" loading="lazy" onerror="fallback(this)">${isNew(x)?'<span class="new">Nowe</span>':''}</div>`:`<div class="placeholder">Miniatura do uzupełnienia</div>`}<div class="meta"><div class="tag">${esc(x.category)}${x.status==='public_draft'?' · szkic':''}</div><h3>${esc(x.title)}</h3></div></article>`).join('');
+ $('grid').innerHTML=visible.map(x=>`<article class="card" data-id="${esc(x.id)}">${x.thumbnail?`<div class="ph"><img src="${esc(variant(x.thumbnail,'thumbs'))}" data-orig="${esc(x.thumbnail)}" alt="${esc(x.title)}" loading="lazy" onerror="fallback(this)">${isNew(x)?'<span class="new">Nowe</span>':''}</div>`:`<div class="placeholder">Miniatura do uzupełnienia</div>`}<div class="meta"><div class="tag">${esc(x.category)}${x.status==='public_draft'?' · szkic':''}</div><h3><span style="opacity:.65;font-variant-numeric:tabular-nums">#${String(x._i+1).padStart(3,'0')}</span> · ${esc(x.title)}</h3></div></article>`).join('');
  document.querySelectorAll('.card[data-id]').forEach(b=>b.onclick=()=>openItem(b.dataset.id))}
 function openItem(id){selected=all.find(x=>x.id===id);if(!selected)return;
  $('full').innerHTML=(selected.thumbnail?`<img class="photo" src="${esc(variant(selected.thumbnail,'medium'))}" data-orig="${esc(selected.thumbnail)}" alt="${esc(selected.title)}" onerror="if(this.src.indexOf(this.dataset.orig)<0)this.src=this.dataset.orig">`:'')+(visible.length>1?'<button class="navbtn prev" aria-label="Poprzedni" onclick="step(-1)">‹</button><button class="navbtn next" aria-label="Następny" onclick="step(1)">›</button>':'');
