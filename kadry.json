@@ -1825,6 +1825,22 @@
       "provenance": "original_catalog",
       "date": "",
       "profile": "1"
+    },
+    {
+      "id": "the-moon-inside-me",
+      "title": "THE MOON INSIDE ME",
+      "category": "Unisex",
+      "description": "Siedząca postać w mgle przed ogromnym księżycem — światło, samotność i cicha siła.",
+      "tags": "fine art, surreal, moonlight, portrait, full body, cinematic",
+      "prompt": "THE MOON INSIDE ME — FINE ART COLLECTION\n\nULTRA-PHOTOREALISTIC | SURREAL FINE ART PHOTOGRAPHY | CINEMATIC MOONLIGHT | FULL BODY | VERTICAL 4:5\n\nIDENTITY — ABSOLUTE PRIORITY\nUse the uploaded reference photographs as the sole identity source. Preserve the subject’s recognizable facial identity, authentic age, facial geometry, natural asymmetry, eye color, eyebrows, nose, lips, jawline and authentic skin texture. Maintain the original hair color, length, haircut, natural volume and texture. Preserve the subject’s actual glasses, tattoos, piercings and other distinctive features exactly as shown in the reference photographs. Never invent, duplicate, mirror or relocate tattoos. Conceal undocumented tattoos naturally with clothing. Preserve authentic body proportions, natural anatomy and individual physical characteristics. No beautification, de-aging, slimming, facial reshaping or artificial skin smoothing.\n\nARTISTIC CONCEPT\nCreate a poetic, surreal fine art photograph symbolizing inner light, emotional depth, solitude and quiet strength. Place the subject in a vast, dark atmospheric space with an enormous luminous full moon positioned behind them. The moon must feature realistic lunar surface details and a soft, naturally diffused glow. Introduce delicate layers of atmospheric mist near the ground and subtle reflections on a dark polished floor.\n\nSTYLING\nChoose a contemporary, minimalist dark outfit with a subtle rebellious character. Use textured black fabrics, relaxed silhouettes and understated accessories. Adapt the styling naturally to the subject’s individual appearance.\n\nPOSE AND EXPRESSION\nCapture the entire body in a relaxed, introspective seated pose. Allow natural hand placement, relaxed shoulders and an authentic, contemplative facial expression. The subject may look toward the moon, into the distance or slightly away from the camera. Do not copy the pose, expression or camera angle from the reference photographs.\n\nLIGHTING AND COLOR PALETTE\nSoft silver moonlight, subtle warm lunar highlights, deep charcoal shadows and muted cinematic tones. Use delicate rim lighting to separate the subject from the background while maintaining realistic facial illumination.\n\nPHOTOGRAPHIC QUALITY\nProfessional fine art photography, realistic 50mm lens perspective, authentic skin pores, individual hair strands, physically plausible shadows, subtle analog film grain and sophisticated cinematic color grading. Balance surreal scenery with completely realistic human anatomy. The final image should resemble a museum-quality conceptual photograph, not a digital fantasy illustration. No text, logos, watermarks, excessive retouching, CGI appearance or artificial beauty filters.",
+      "negativePrompt": "different identity, altered facial geometry, changed eye color, changed haircut or hair length, invented tattoos or piercings, artificial skin smoothing, slimming, de-aging, distorted anatomy, extra fingers, CGI look, fantasy illustration, text, logo, watermark",
+      "referencePhotosRequired": "Wyraźne zdjęcie twarzy; opcjonalnie dodatkowe zdjęcie z profilu i sylwetki.",
+      "thumbnail": "images/the-moon-inside-me.webp",
+      "status": "published",
+      "source": "Kadr z rozmowy; prompt podany przez użytkowniczkę.",
+      "provenance": "user-provided",
+      "date": "2026-11-26",
+      "profile": ""
     }
   ]
 }
